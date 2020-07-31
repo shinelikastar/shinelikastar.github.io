@@ -13,14 +13,12 @@
 - [x] Implement escape hatch
   - [x] Render emoji button
   - [x] Scrolls to top on click
-- [ ] Hook up navbar to page content
-
-
-- [ ] Fade in scroll and/or snappy
+- [ ] **Hook up navbar to page content**
+- [x] Fade in scroll and/or snappy
 
 ### Pages
 
-- [ ] Add sections for each page component
+- [x] Add sections for each page component
   - [x] Import react-routing
   - [x] Setup correct browser / build configs
   - [ ] Fuck I think I need hash links instead
@@ -38,6 +36,8 @@
 - [x] Big refactor to use the config
 - [x] Interlocking left/right aligned design
 
+- [ ] **Add other projects section**
+
 ### Animations
 
 - [ ] Parallax effect || intersection observer
@@ -48,7 +48,7 @@
 
 ### Footer
 
-- [ ] Somewhere to stash links
+- [ ] **Somewhere to stash links**
 - [x] Animate visibility of scroll top button
 
 ### Polish backlog
