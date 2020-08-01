@@ -32,7 +32,7 @@ function AboutPage() {
   const innerApp = (
     <>
       {renderWelcome()}
-      <Navbar config={config} />
+      {/* <Navbar config={config} /> */}
       <WorkPage />
       <WritingPage />
       <DesignNotes />
