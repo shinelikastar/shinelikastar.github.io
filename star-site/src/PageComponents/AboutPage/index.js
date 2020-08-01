@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import WritingPage from "../WritingPage";
 import DesignNotes from "../DesignNotes";
 import "./AboutPage.css";
+import TopButton from "../../shared-components/Navbar/TopButton";
 
 function AboutPage() {
   function renderWelcome() {
@@ -32,7 +33,7 @@ function AboutPage() {
   const innerApp = (
     <>
       {renderWelcome()}
-      {/* <Navbar config={config} /> */}
+      <TopButton />
       <WorkPage />
       <WritingPage />
       <DesignNotes />

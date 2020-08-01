@@ -96,13 +96,13 @@ class Navbar extends React.Component {
 
     return (
       <>
-        <div className="Navbar-all-container">
+        {/* <div className="Navbar-all-container">
           <div className={containerClass}>
             <ul className="Navbar">
               {config.map((elem, index) => this.renderNavbar(elem, index))}
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <TopButton />
       </>

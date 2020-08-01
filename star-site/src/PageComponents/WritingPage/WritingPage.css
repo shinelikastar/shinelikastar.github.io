@@ -6,24 +6,16 @@
 .Writing-line--title {
   font-weight: 500;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1rem;
+  color: inherit;
 }
 .Writing-line-container {
   padding: 5px;
 }
 
-.Writing-line-container a:hover {
-  text-decoration-color: rgb(16, 162, 245);
-  border-bottom: 4px solid rgb(16, 162, 245);
-}
-
-.Writing-line--title:visited {
-  color: black;
-}
-
 .Writing-line--publish {
   color: rgb(168, 178, 209);
-  font-size: 14px;
+  font-size: 0.9rem;
   margin: 5px 0;
 }
 
