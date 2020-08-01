@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/github.io/static/css/main.e6b1c7e9.chunk.css",
+    "main.js": "/github.io/static/js/main.667ab6d4.chunk.js",
+    "main.js.map": "/github.io/static/js/main.667ab6d4.chunk.js.map",
+    "runtime-main.js": "/github.io/static/js/runtime-main.eca7a870.js",
+    "runtime-main.js.map": "/github.io/static/js/runtime-main.eca7a870.js.map",
+    "static/js/2.dc6b3f89.chunk.js": "/github.io/static/js/2.dc6b3f89.chunk.js",
+    "static/js/2.dc6b3f89.chunk.js.map": "/github.io/static/js/2.dc6b3f89.chunk.js.map",
+    "index.html": "/github.io/index.html",
+    "precache-manifest.b44a7dbe9de832c7df29fb52bfe73ac9.js": "/github.io/precache-manifest.b44a7dbe9de832c7df29fb52bfe73ac9.js",
+    "service-worker.js": "/github.io/service-worker.js",
+    "static/css/main.e6b1c7e9.chunk.css.map": "/github.io/static/css/main.e6b1c7e9.chunk.css.map",
+    "static/js/2.dc6b3f89.chunk.js.LICENSE.txt": "/github.io/static/js/2.dc6b3f89.chunk.js.LICENSE.txt",
+    "static/media/diva.png": "/github.io/static/media/diva.2a009e4a.png",
+    "static/media/eggs_static.png": "/github.io/static/media/eggs_static.ca5d308d.png",
+    "static/media/maps_static.png": "/github.io/static/media/maps_static.b9731e88.png",
+    "static/media/pointing-up.png": "/github.io/static/media/pointing-up.951c1d7f.png",
+    "static/media/raisin_bread_static.png": "/github.io/static/media/raisin_bread_static.7feb7caa.png",
+    "static/media/weenix.gif": "/github.io/static/media/weenix.ffc80066.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eca7a870.js",
+    "static/js/2.dc6b3f89.chunk.js",
+    "static/css/main.e6b1c7e9.chunk.css",
+    "static/js/main.667ab6d4.chunk.js"
+  ]
+}
