@@ -1,11 +1,10 @@
 .DesignNotes--thoughts {
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   margin: 0 auto;
-  text-align: justify;
   padding: 40px 30%;
 }
 
 .DesignNotes--thoughts p {
-  font-size: 17px;
+  font-size: 15px;
 }
