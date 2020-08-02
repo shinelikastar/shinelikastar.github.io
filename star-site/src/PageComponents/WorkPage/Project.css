@@ -1,5 +1,5 @@
 .Project-container {
-  padding: 90px 0 400px 0;
+  padding: 90px 0 360px 0;
 }
 
 .Project-container:last-of-type {
@@ -11,19 +11,19 @@
 }
 
 .Project-img {
-  width: 480px;
+  width: 450px;
   position: absolute;
   border-radius: 4px;
   box-shadow: 0 10px 25px 2px grey;
 }
 
 .Project-img--left {
-  left: 450px;
+  left: 520px;
 }
 
 .Project-board {
   margin-top: 50px;
-  width: 400px;
+  width: 375px;
   padding: 25px 0;
   font-size: 15px;
 }
@@ -36,7 +36,7 @@
 .Project-board--right {
   position: absolute;
   text-align: right;
-  left: 800px;
+  left: 860px;
 }
 
 .Project-text {
