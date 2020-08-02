@@ -38,7 +38,7 @@ export default [
   {
     title: "Raisin-Bread",
     description:
-      "Inspired by Tamagotchi, users raise bread through hard work of staying productive online. If you want to try it, download the files, and upload to `chrome://extensions`. Go get that dough!",
+      "Inspired by Tamagotchi, users raise a pet bread in their browser by staying productive. I designed the popup to control the settings for the extenstion, logic for the pomodoro timers, and created real-time data visualizations of user browsing history.",
     languages: ["Javascript", "d3.js", "jQuery", "HTML", "CSS"],
     links: {
       files: "tinyurl.com/raisin-bread-full",

@@ -60,11 +60,11 @@ class Project extends React.Component {
     const { github, files, redirect } = links;
 
     const { index } = this.props;
-    const align = index === 0 ? "left" : isEven(index) ? "left" : "right";
+    const alignment = index === 0 ? "left" : isEven(index) ? "left" : "right";
 
     return (
       <motion.div
-        style={{ width: 45, float: align, cursor: "pointer" }}
+        style={{ float: alignment, cursor: "pointer" }}
         whileHover={{ y: -4 }}
         whileTap={{ scale: 0.8 }}
       >

@@ -5,6 +5,7 @@ import config from "../../shared-components/Navbar/navbar_config";
 import girl from "../../assets/diva.png";
 import WorkPage from "../WorkPage";
 import Footer from "./Footer";
+import Experience from "../Experience";
 import WritingPage from "../WritingPage";
 import DesignNotes from "../DesignNotes";
 import "./AboutPage.css";
@@ -34,6 +35,7 @@ function AboutPage() {
     <>
       {renderWelcome()}
       <TopButton />
+      <Experience />
       <WorkPage />
       <WritingPage />
       <DesignNotes />
