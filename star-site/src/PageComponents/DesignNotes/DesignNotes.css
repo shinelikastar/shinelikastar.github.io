@@ -8,3 +8,7 @@
 .DesignNotes--thoughts p {
   font-size: 15px;
 }
+
+.DesignNotes--thoughts a {
+  color: inherit;
+}

@@ -18,16 +18,14 @@
 }
 
 .Project-img--left {
-  left: 550px;
+  left: 450px;
 }
 
 .Project-board {
   margin-top: 50px;
-  width: 480px;
+  width: 400px;
   padding: 25px 0;
-  border-radius: 3px;
   font-size: 15px;
-  z-index: 2;
 }
 
 .Project-board--left {
@@ -38,7 +36,7 @@
 .Project-board--right {
   position: absolute;
   text-align: right;
-  left: 840px;
+  left: 800px;
 }
 
 .Project-text {

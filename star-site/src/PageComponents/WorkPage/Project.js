@@ -12,6 +12,16 @@ import maps from "./images/maps/maps_static.png";
 import "./Project.css";
 
 const iconColor = "rgb(16, 162, 245)";
+const iconProps = {
+  size: 20,
+  fill: iconColor,
+  className: "Project-icon",
+};
+const linkProps = {
+  size: 20,
+  stroke: iconColor,
+  className: "Project-icon",
+};
 
 const PROJECTS = {
   weenix,
@@ -49,17 +59,6 @@ class Project extends React.Component {
 
     const { index } = this.props;
     const align = index === 0 ? "left" : isEven(index) ? "left" : "right";
-    const iconProps = {
-      size: 30,
-      fill: iconColor,
-      className: "Project-icon",
-    };
-
-    const linkProps = {
-      size: 30,
-      stroke: iconColor,
-      className: "Project-icon",
-    };
 
     return (
       <motion.div
