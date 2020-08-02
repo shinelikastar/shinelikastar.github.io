@@ -8,6 +8,7 @@ import weenix from "./images/weenix/weenix.gif";
 import eggs from "./images/eggs/eggs_static.png";
 import raisin from "./images/raisin_bread/raisin_bread_static.png";
 import maps from "./images/maps/maps_static.png";
+import ray from "./images/ray/ray_static.png";
 
 import "./Project.css";
 
@@ -28,6 +29,7 @@ const PROJECTS = {
   eggs,
   raisin,
   maps,
+  ray,
 };
 
 function isEven(n) {

@@ -2,7 +2,7 @@ export default [
   {
     title: "Weenix",
     description:
-      "Unix-like kernel built as a semester long project for Operating Systems (CS167/69)",
+      "Unix-like kernel built as a semester long project for Operating Systems (CS167/69). ",
     languages: ["C", "A lot of GDB", "Assembly"],
     links: {
       github: "https://github.com/brown-cs1690/weenix-2020-shinelikastar",
@@ -14,7 +14,7 @@ export default [
   {
     title: "Address Autocomplete",
     description:
-      "Full-stack integration of Google Maps API to create autocomplete surface for Stripe's Checkout page, as part of my summer 2020 internship",
+      "Designed a new form field UI for Stripe's Checkout page that searches for addresses as users type. Works well for desktop, mobile, screenreaders, and any locale. ",
     languages: ["React", "Framer Motion", "Redux", "Ruby", "Jest"],
     links: {
       redirect: "https://github.com/shinelikastar/cs1230-eggs",
@@ -48,15 +48,13 @@ export default [
     },
   },
   {
-    title: "Maps",
+    title: "Ray",
     description:
-      "Full stack version of Google Maps, built with a partner. Features include optimized path search (A* search! KD tree caching!), autocorrect for street routes, and tiling scheme in rendering the map.",
-    languages: ["Java", "Javascript", "jQuery"],
-    links: {
-      github: "https://github.com/shinelikastar/cs1230-eggs",
-    },
+      "Multithreaded raytracer implemented according to the Phong lighting equation. Capable of rendering reflection, shadows, specular highlights, directional lighting, attenuation.",
+    languages: ["C++", "GLM"],
+    links: {},
     imgs: {
-      static: "./images/eggs/eggs_static.png",
+      static: "./images/ray/ray_static.png",
     },
   },
 ];

@@ -2,6 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import pointingUp from "../../assets/pointing-up.png";
 
+const variants = {
+  hidden: {
+    opacity: 0,
+  },
+  rendered: {
+    opacity: 1,
+  },
+};
+
 function TopButton() {
   const [lastYPos, setLastYPos] = React.useState(0);
   const [shouldShowActions, setShouldShowActions] = React.useState(false);
@@ -31,10 +40,13 @@ function TopButton() {
       type="button"
       className="Top-button"
       onClick={handleScroll}
-      whileHover={{ y: -6 }}
+      whileHover={{ y: -8 }}
       initial={{ opacity: 0 }}
       animate={{ opacity: shouldShowActions ? 1 : 0 }}
-      transition={{ opacity: { duration: 0.2 } }}
+      transition={{
+        opacity: { duration: 0.2 },
+        y: { duration: 0.1 },
+      }}
     >
       <img src={pointingUp} alt="Top button"></img>
     </motion.button>
