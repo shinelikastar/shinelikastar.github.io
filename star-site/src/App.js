@@ -5,7 +5,7 @@ import { createBrowserHistory } from "history";
 import "./App.css";
 
 import WorkPage from "./PageComponents/WorkPage/";
-import AboutPage from "./PageComponents/AboutPage/";
+import MainPage from "./PageComponents/MainPage/";
 
 function App() {
   const history = createBrowserHistory();
@@ -15,7 +15,7 @@ function App() {
       <Switch>
         <Route path="/work" component={WorkPage}></Route>
         <Route path="/writing"></Route>
-        <Route exact path="/" component={AboutPage}></Route>
+        <Route exact path="/" component={MainPage}></Route>
       </Switch>
     </Router>
   );

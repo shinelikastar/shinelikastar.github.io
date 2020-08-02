@@ -8,10 +8,10 @@ import Footer from "./Footer";
 import Experience from "../Experience";
 import WritingPage from "../WritingPage";
 import DesignNotes from "../DesignNotes";
-import "./AboutPage.css";
+import "./MainPage.css";
 import TopButton from "../../shared-components/Navbar/TopButton";
 
-function AboutPage() {
+function MainPage() {
   function renderWelcome() {
     return (
       <header className="App-header">
@@ -46,4 +46,4 @@ function AboutPage() {
   return <>{innerApp}</>;
 }
 
-export default AboutPage;
+export default MainPage;
