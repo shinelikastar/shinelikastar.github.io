@@ -15,7 +15,7 @@ export default [
     title: "Address Autocomplete",
     description:
       "Full-stack integration of Google Maps API to create autocomplete surface for Stripe's Checkout page, as part of my summer 2020 internship",
-    languages: ["Javascript", "React", "Framer Motion", "Ruby"],
+    languages: ["React", "Framer Motion", "Redux", "Ruby", "Jest"],
     links: {
       redirect: "https://github.com/shinelikastar/cs1230-eggs",
     },
@@ -39,7 +39,7 @@ export default [
     title: "Raisin-Bread",
     description:
       "Inspired by Tamagotchi, users raise bread through hard work of staying productive online. If you want to try it, download the files, and upload to `chrome://extensions`. Go get that dough!",
-    languages: ["Javascript", "d3.js", "jQuery"],
+    languages: ["Javascript", "d3.js", "jQuery", "HTML", "CSS"],
     links: {
       files: "tinyurl.com/raisin-bread-full",
     },
