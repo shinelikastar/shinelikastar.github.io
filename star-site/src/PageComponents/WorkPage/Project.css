@@ -1,5 +1,5 @@
 .Project-container {
-  padding: 90px 0 360px 0;
+  padding: 90px 0 380px 0;
 }
 
 .Project-container:last-of-type {
@@ -36,7 +36,7 @@
 .Project-board--right {
   position: absolute;
   text-align: right;
-  left: 840px;
+  left: 900px;
 }
 
 .Project-text {
