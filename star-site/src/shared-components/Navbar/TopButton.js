@@ -2,15 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import pointingUp from "../../assets/pointing-up.png";
 
-const variants = {
-  hidden: {
-    opacity: 0,
-  },
-  rendered: {
-    opacity: 1,
-  },
-};
-
 function TopButton() {
   const [lastYPos, setLastYPos] = React.useState(0);
   const [shouldShowActions, setShouldShowActions] = React.useState(false);

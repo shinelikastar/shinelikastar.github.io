@@ -21,7 +21,9 @@ class WritingPage extends React.Component {
           {title}
         </a>
         <p className="Writing-line--publish">
-          {published_by} | {published_on}
+          {published_by}
+          <br></br>
+          {published_on}
         </p>
       </div>
     );
@@ -45,16 +47,11 @@ class WritingPage extends React.Component {
 
   render() {
     const headerText = "some things i've written ✨";
+
     return (
       <div className="Writing-page-container">
         <Header text={headerText} />
-
-        <div className="Writing-page-content">
-          {/* {this.renderThoughts()} */}
-          <div className="Writing-archive-container">
-            {this.renderArchive()}
-          </div>
-        </div>
+        <div className="Writing-archive li">{this.renderArchive()}</div>
       </div>
     );
   }
