@@ -12,3 +12,8 @@
 .DesignNotes--thoughts a {
   color: inherit;
 }
+
+.DesignNotes-page {
+  padding-top: 100px;
+  position: relative;
+}

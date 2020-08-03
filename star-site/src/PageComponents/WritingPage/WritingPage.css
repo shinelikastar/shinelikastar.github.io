@@ -1,63 +1,61 @@
 .Writing-page-content {
-  /* position: relative; */
-  /* padding: 50px 0; */
-  /* margin: 0 auto; */
   display: block;
 }
 
 .Writing-archive {
   overflow: hidden;
   display: flex;
+  padding: 20px 0 30px 0;
 }
 
 .Writing-archive div {
   position: absolute;
   width: 20%;
-  right: 100%;
+  right: -100%;
   justify-content: space-between;
 }
 
 .Writing-archive .line-0 {
-  animation: marqueeRight 25s linear 0s infinite;
+  animation: marquee 50s linear 0s infinite;
 }
 
 .Writing-archive .line-1 {
-  animation: marqueeRight 25s linear 2.5s infinite;
+  animation: marquee 50s linear -5s infinite;
 }
 
 .Writing-archive .line-2 {
-  animation: marqueeRight 25s linear 5s infinite;
+  animation: marquee 50s linear -10s infinite;
 }
 
 .Writing-archive .line-3 {
-  animation: marqueeRight 25s linear 7.5s infinite;
+  animation: marquee 50s linear -15s infinite;
 }
 
 .Writing-archive .line-4 {
-  animation: marqueeRight 25s linear 10s infinite;
+  animation: marquee 50s linear -20s infinite;
 }
 
 .Writing-archive .line-5 {
-  animation: marqueeRight 25s linear 12.5s infinite;
+  animation: marquee 50s linear -25s infinite;
 }
 
 .Writing-archive .line-6 {
-  animation: marqueeRight 25s linear 15s infinite;
+  animation: marquee 50s linear -30s infinite;
 }
 
 .Writing-archive .line-7 {
-  animation: marqueeRight 25s linear 17.5s infinite;
+  animation: marquee 50s linear -35s infinite;
 }
 
 .Writing-archive .line-8 {
-  animation: marqueeRight 25s linear 20s infinite;
+  animation: marquee 50s linear -40s infinite;
 }
 
 .Writing-archive .line-9 {
-  animation: marqueeRight 25s linear 22.5s infinite;
+  animation: marquee 50s linear -45s infinite;
 }
 
-@keyframes marqueeRight {
+@keyframes marquee {
   0% {
     right: -100%;
   }
@@ -74,7 +72,6 @@
 .li {
   float: left;
   width: 100%;
-  /* height: 100px; */
 }
 
 .Writing-line--title {
@@ -87,9 +84,6 @@
 .Writing-line-container {
   padding-right: 50px;
   display: inline-block;
-  /* white-space: nowrap; */
-
-  /* width: 200px; */
 }
 
 .Writing-line--publish {
