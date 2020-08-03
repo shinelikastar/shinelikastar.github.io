@@ -1,19 +1,60 @@
 .Writing-page-content {
   /* position: relative; */
   /* padding: 50px 0; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: block;
 }
 
 .Writing-archive {
   overflow: hidden;
-  display: inline-flex;
+  display: flex;
 }
 
 .Writing-archive div {
-  position: relative;
-  width: 200px;
-  animation: marqueeRight linear 18s infinite;
+  position: absolute;
+  width: 20%;
+  right: 100%;
+  justify-content: space-between;
+}
+
+.Writing-archive .line-0 {
+  animation: marqueeRight 25s linear 0s infinite;
+}
+
+.Writing-archive .line-1 {
+  animation: marqueeRight 25s linear 2.5s infinite;
+}
+
+.Writing-archive .line-2 {
+  animation: marqueeRight 25s linear 5s infinite;
+}
+
+.Writing-archive .line-3 {
+  animation: marqueeRight 25s linear 7.5s infinite;
+}
+
+.Writing-archive .line-4 {
+  animation: marqueeRight 25s linear 10s infinite;
+}
+
+.Writing-archive .line-5 {
+  animation: marqueeRight 25s linear 12.5s infinite;
+}
+
+.Writing-archive .line-6 {
+  animation: marqueeRight 25s linear 15s infinite;
+}
+
+.Writing-archive .line-7 {
+  animation: marqueeRight 25s linear 17.5s infinite;
+}
+
+.Writing-archive .line-8 {
+  animation: marqueeRight 25s linear 20s infinite;
+}
+
+.Writing-archive .line-9 {
+  animation: marqueeRight 25s linear 22.5s infinite;
 }
 
 @keyframes marqueeRight {
@@ -33,13 +74,7 @@
 .li {
   float: left;
   width: 100%;
-  padding: 1%;
   /* height: 100px; */
-}
-
-.Writing-archive-container {
-  width: 4250px;
-  margin: 0;
 }
 
 .Writing-line--title {

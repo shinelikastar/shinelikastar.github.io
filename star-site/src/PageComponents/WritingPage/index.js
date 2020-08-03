@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 import Header from "../../shared-components/Header";
 import "./WritingPage.css";
 import config from "./writing_config";
@@ -8,15 +9,17 @@ class WritingPage extends React.Component {
     archive: config,
   };
 
-  renderLine = (line) => {
+  renderLine = (line, index) => {
     const {
       title,
       publish: { published_by, published_on },
       link,
     } = line;
 
+    const containerName = classNames("Writing-line-container", `line-${index}`);
+
     return (
-      <div className="Writing-line-container" key={title}>
+      <div className={containerName} key={title}>
         <a className="Writing-line--title" href={link}>
           {title}
         </a>
@@ -31,8 +34,8 @@ class WritingPage extends React.Component {
 
   renderArchive = () => {
     const { archive } = this.props;
-    return archive.map((elem) => {
-      return this.renderLine(elem);
+    return archive.map((elem, index) => {
+      return this.renderLine(elem, index);
     });
   };
 

@@ -30,10 +30,10 @@ function DesignNotes() {
   }
 
   return (
-    <div className="DesignNotes-container">
+    <>
       <Header text="some notes on design 🌿" />
-      {renderNotes()}
-    </div>
+      <div className="DesignNotes-container">{renderNotes()}</div>
+    </>
   );
 }
 
