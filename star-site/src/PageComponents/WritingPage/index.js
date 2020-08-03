@@ -19,7 +19,7 @@ class WritingPage extends React.Component {
     const containerName = classNames("Writing-line-container", `line-${index}`);
 
     return (
-      <div className={containerName} key={title}>
+      <div className={`line-${index}`} key={title}>
         <a className="Writing-line--title" href={link}>
           {title}
         </a>
@@ -54,7 +54,7 @@ class WritingPage extends React.Component {
     return (
       <div className="Writing-page-container">
         <Header text={headerText} />
-        <div className="Writing-archive li">{this.renderArchive()}</div>
+        <div className="Writing-archive">{this.renderArchive()}</div>
       </div>
     );
   }

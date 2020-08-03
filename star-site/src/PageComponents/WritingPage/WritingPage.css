@@ -13,6 +13,7 @@
   width: 20%;
   right: -100%;
   justify-content: space-between;
+  animation: marquee 50s linear 0s infinite;
 }
 
 .Writing-archive .line-0 {
@@ -55,6 +56,12 @@
   animation: marquee 50s linear -45s infinite;
 }
 
+.Writing-archive:hover div {
+  cursor: hover;
+  animation-play-state: paused;
+  z-index: 1000;
+}
+
 @keyframes marquee {
   0% {
     right: -100%;
@@ -62,16 +69,6 @@
   100% {
     right: 100%;
   }
-}
-
-.Writing-archive:hover div {
-  cursor: hover;
-  animation-play-state: paused;
-}
-
-.li {
-  float: left;
-  width: 100%;
 }
 
 .Writing-line--title {
@@ -83,7 +80,7 @@
 
 .Writing-line-container {
   padding-right: 50px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .Writing-line--publish {
