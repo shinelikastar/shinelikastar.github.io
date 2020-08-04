@@ -20,10 +20,6 @@ function DesignNotes() {
           typefaces seriously, I want you to know that I am a serifs girl. Their
           delicate temperament was not suited for the ample usage of emojis.
           <br></br>
-          <br></br>I would also like to note the privilege of time, space, and
-          knowlege this summer has given me. It's allowed me to uncover what
-          brings me joy, unfettered in expectations. I hope to carry this growth
-          for years to come.
         </p>
       </div>
     );
