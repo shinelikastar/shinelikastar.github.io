@@ -1,8 +1,17 @@
 .DesignNotes--thoughts {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
+  /* margin: 0 auto;
+  padding: 0 30%; */
+
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+
+  padding: 15px 10%;
   margin: 0 auto;
-  padding: 0 30%;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 .DesignNotes--thoughts p {

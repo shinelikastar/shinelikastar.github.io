@@ -1,8 +1,17 @@
 // @flow
 import React from "react";
 import "./Footer.css";
+import girl from "../../assets/dozing.png";
 
 function Footer() {
+  function renderGirlDozing() {
+    return (
+      <div className="Girl-dozing-container">
+        <img src={girl} alt="" className="Girl-dozing" />
+      </div>
+    );
+  }
+
   function renderCredits() {
     return (
       <a
@@ -19,7 +28,12 @@ function Footer() {
     );
   }
 
-  return <footer className="Footer">{renderCredits()}</footer>;
+  return (
+    <>
+      {renderGirlDozing()}
+      <footer className="Footer">{renderCredits()}</footer>
+    </>
+  );
 }
 
 export default Footer;
