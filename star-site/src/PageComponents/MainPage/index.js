@@ -1,7 +1,5 @@
 // @flow
 import React from "react";
-import Navbar from "../../shared-components/Navbar";
-import config from "../../shared-components/Navbar/navbar_config";
 import girl from "../../assets/diva.png";
 import WorkPage from "../WorkPage";
 import Footer from "./Footer";
@@ -9,7 +7,7 @@ import Experience from "../Experience";
 import WritingPage from "../WritingPage";
 import DesignNotes from "../DesignNotes";
 import "./MainPage.css";
-import TopButton from "../../shared-components/Navbar/TopButton";
+import TopButton from "../../shared-components/TopButton";
 
 function MainPage() {
   function renderWelcome() {
@@ -31,7 +29,7 @@ function MainPage() {
     );
   }
 
-  const innerApp = (
+  return (
     <>
       {renderWelcome()}
       <TopButton />
@@ -42,8 +40,6 @@ function MainPage() {
       <Footer />
     </>
   );
-
-  return <>{innerApp}</>;
 }
 
 export default MainPage;
