@@ -3,8 +3,41 @@ import React from "react";
 import "./DesignNotes.css";
 import Header from "../../shared-components/Header";
 
-function DesignNotes() {
-  function renderNotes() {
+const Accordion = ({ i, expanded, setExpanded }) => {
+  const isOpen = i === expanded;
+
+  // By using `AnimatePresence` to mount and unmount the contents, we can animate
+  // them in and out while also only rendering the contents of open accordions
+  return (
+    <>
+      <motion.header
+        initial={false}
+        animate={{ backgroundColor: isOpen ? "#FF0088" : "#0055FF" }}
+        onClick={() => setExpanded(isOpen ? false : i)}
+      />
+      <AnimatePresence initial={false}>
+        {isOpen && (
+          <motion.section
+            key="content"
+            initial="collapsed"
+            animate="open"
+            exit="collapsed"
+            variants={{
+              open: { opacity: 1, height: "auto" },
+              collapsed: { opacity: 0, height: 0 },
+            }}
+            transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
+          >
+            <ContentPlaceholder />
+          </motion.section>
+        )}
+      </AnimatePresence>
+    </>
+  );
+};
+
+class DesignNotes extends React.Component {
+  renderNotes = () => {
     return (
       <div className="DesignNotes--thoughts">
         <details></details>
@@ -24,14 +57,16 @@ function DesignNotes() {
         </p>
       </div>
     );
-  }
+  };
 
-  return (
-    <div className="DesignNotes-page">
-      <Header text="some notes on design 🌿" />
-      <div className="DesignNotes-container">{renderNotes()}</div>
-    </div>
-  );
+  render() {
+    return (
+      <div className="DesignNotes-page">
+        <Header text="some notes on design 🌿" />
+        <div className="DesignNotes-container">{renderNotes()}</div>
+      </div>
+    );
+  }
 }
 
 export default DesignNotes;
