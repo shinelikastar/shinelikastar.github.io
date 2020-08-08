@@ -30,12 +30,12 @@
 
 .Project-board--left {
   position: absolute;
-  text-align: left;
+  text-align: justify;
 }
 
 .Project-board--right {
   position: absolute;
-  text-align: right;
+  text-align: justify;
   left: 850px;
 }
 
