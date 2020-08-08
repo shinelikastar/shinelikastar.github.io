@@ -21,7 +21,10 @@ body {
 }
 
 a {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   text-decoration: none;
+  font-weight: 700;
   color: inherit;
 }
 
