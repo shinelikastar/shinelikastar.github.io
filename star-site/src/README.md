@@ -3,16 +3,20 @@
 ### Pages
 
 - [ ] Design experience page!
+- [ ] Create dropdown for design notes with emoji as chevron
+- [ ] Add about section
+- [ ] Use `flex` positioning
 
 #### Work
 
 - [ ] Design the animation to show text
+- [ ] Add address autocomplete GIF
+- [ ] 
 - [ ] **Add other projects section**
 
 ### Animations
 
-- [x] Parallax effect || intersection observer
-- [x] Use `AnimatePresence` for smoother transition of subheadings
+- [ ] Add more scroll animations, specifically for each component
 - [ ] Create flip card for projects
 - [ ] Loading logo
   - [ ] Create `Loader` component?
