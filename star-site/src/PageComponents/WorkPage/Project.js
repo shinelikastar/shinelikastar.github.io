@@ -124,7 +124,7 @@ class Project extends React.Component {
     const textClass = classNames("Project-text");
 
     return (
-      <div className={boardClass}>
+      <div className={boardClass} data-aos="fade-up" data-aos-delay="200">
         <p className={headerClass}>{title}</p>
         <p className={textClass}>{description}</p>
         {this.renderLanguages(languages)}
