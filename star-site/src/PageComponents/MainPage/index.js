@@ -20,8 +20,8 @@ function MainPage() {
             src={girl}
             className="Girl-diva"
             alt=""
-            // data-aos="zoom-in"
-            // data-aos-delay="200"
+            data-aos="fade-down"
+            data-aos-delay="300"
           />
           <div
             className="Welcome-container"
@@ -30,7 +30,12 @@ function MainPage() {
           >
             <p className="DisplayText">
               hi, it's star{" "}
-              <span role="img" aria-label="waving">
+              <span
+                role="img"
+                aria-label="peace sign"
+                data-aos="fade-up"
+                data-aos-delay="900"
+              >
                 ✌️
               </span>
             </p>

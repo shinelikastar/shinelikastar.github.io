@@ -6,7 +6,7 @@ import Dropdown from "../../shared-components/Dropdown";
 import girl from "../../assets/dozing.png";
 import "./About.css";
 
-const summary = "design notes 🌿";
+const summary = "design notes 🌸";
 const content = (
   <p>
     This is a space to name all the wondrous things that resulted in the
@@ -24,7 +24,11 @@ const content = (
 class About extends React.Component {
   renderGirlDozing() {
     return (
-      <div className="Girl-dozing-container">
+      <div
+        className="Girl-dozing-container"
+        data-aos="fade-left"
+        data-aos-delay="200"
+      >
         <img src={girl} alt="" className="Girl-dozing" />
       </div>
     );
@@ -35,7 +39,11 @@ class About extends React.Component {
       <div className="DesignNotes-page">
         <Header text="about 🌿" />
         <div className="About-container">
-          <div className="About-dropdown">
+          <div
+            className="About-dropdown"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <Dropdown summary={summary} content={content} />
           </div>
 
