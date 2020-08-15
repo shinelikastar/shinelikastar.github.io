@@ -16,8 +16,18 @@ function MainPage() {
     return (
       <header className="App-header">
         <div className="Girl-container">
-          <img src={girl} className="Girl-diva" alt="" />
-          <div className="Welcome-container">
+          <img
+            src={girl}
+            className="Girl-diva"
+            alt=""
+            // data-aos="zoom-in"
+            // data-aos-delay="200"
+          />
+          <div
+            className="Welcome-container"
+            // data-aos="fade-left"
+            // data-aos-delay="200"
+          >
             <p className="DisplayText">
               hi, it's star{" "}
               <span role="img" aria-label="waving">

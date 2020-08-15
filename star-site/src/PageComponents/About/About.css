@@ -12,21 +12,13 @@
   border-radius: 4px;
 }
 
-.DesignNotes--thoughts p {
-  font-size: 15px;
-}
-
-.DesignNotes--thoughts a {
-  color: inherit;
-}
-
 .DesignNotes-page {
   padding-top: 100px;
   position: relative;
   margin: 0 auto;
 }
 
-.DesignNotes-container {
+.About-container {
   padding: 100px 0;
   display: flex;
   flex-wrap: wrap;
@@ -37,5 +29,14 @@
 }
 
 .Girl-dozing-container {
-  padding: 20px 40px;
+  display: block;
+  padding: 0 40px;
+}
+
+.About-dropdown {
+  margin: 0;
+  padding-left: 25%;
+  display: block;
+  z-index: 2;
+  width: 20rem;
 }

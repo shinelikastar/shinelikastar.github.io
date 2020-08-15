@@ -38,7 +38,7 @@ class Dropdown extends React.Component {
     return (
       <div
         className="Dropdown-content"
-        style={{ display: active ? "block" : "none" }}
+        style={{ display: active ? "inline-block" : "none" }}
       >
         {content}
       </div>
