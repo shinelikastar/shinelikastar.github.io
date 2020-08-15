@@ -9,7 +9,7 @@ import Footer from "./Footer";
 import Experience from "../Experience";
 import WritingPage from "../WritingPage";
 import About from "../About";
-import TopButton from "../../shared-components/TopButton";
+import TopButton from "../../shared-components/TopButton/";
 
 function MainPage() {
   function renderWelcome() {

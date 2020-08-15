@@ -7,7 +7,7 @@ import { FiLink } from "react-icons/fi";
 import weenix from "./images/weenix/weenix.gif";
 import eggs from "./images/eggs/eggs_static.png";
 import raisin from "./images/raisin_bread/raisin_bread_static.png";
-import maps from "./images/maps/maps_static.png";
+import address from "./images/address_autocomplete/address_autocomplete.gif";
 import ray from "./images/ray/ray_static.png";
 
 import "./Project.css";
@@ -28,7 +28,7 @@ const PROJECTS = {
   weenix,
   eggs,
   raisin,
-  maps,
+  address,
   ray,
 };
 
@@ -38,11 +38,15 @@ function isEven(n) {
 
 class Project extends React.Component {
   tokenizeTitle = (title) => {
-    return title.split("-")[0].toLowerCase();
+    return title
+      .split("-")[0]
+      .split(" ")[0]
+      .toLowerCase();
   };
 
   renderImage = () => {
     const { title, index } = this.props;
+    console.log(this.tokenizeTitle(title));
     const img = PROJECTS[this.tokenizeTitle(title)];
 
     const imageClass = classNames("Project-img", {
