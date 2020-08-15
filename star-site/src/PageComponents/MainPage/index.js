@@ -1,12 +1,14 @@
 // @flow
 import React from "react";
+
 import girl from "../../assets/diva.png";
+import "./MainPage.css";
+
 import WorkPage from "../WorkPage";
 import Footer from "./Footer";
 import Experience from "../Experience";
 import WritingPage from "../WritingPage";
-import DesignNotes from "../DesignNotes";
-import "./MainPage.css";
+import About from "../About";
 import TopButton from "../../shared-components/TopButton";
 
 function MainPage() {
@@ -36,7 +38,7 @@ function MainPage() {
       <Experience />
       <WorkPage />
       <WritingPage />
-      <DesignNotes />
+      <About />
       <Footer />
     </>
   );
