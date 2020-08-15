@@ -10,8 +10,7 @@
 #### Work
 
 - [ ] Design the animation to show text
-- [ ] Add address autocomplete GIF
-- [ ] 
+- [x] Add address autocomplete GIF
 - [ ] **Add other projects section**
 
 ### Animations

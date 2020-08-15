@@ -16,8 +16,6 @@ class WritingPage extends React.Component {
       link,
     } = line;
 
-    const containerName = classNames("Writing-line-container", `line-${index}`);
-
     return (
       <div className={`line-${index}`} key={title}>
         <a className="Writing-line--title" href={link}>
