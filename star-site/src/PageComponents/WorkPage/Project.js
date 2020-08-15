@@ -94,7 +94,7 @@ class Project extends React.Component {
 
   renderLanguages = (languages) => {
     return (
-      <ul className="Language-list">
+      <ul className="Language-list" data-aos="fade-right" data-aos-delay="150">
         {languages.map((elem) => {
           return (
             <li className="Language-list-elem" key={elem}>
