@@ -36,7 +36,6 @@
 - [ ] Add `vars.css`
 - [ ] Refactor using new awesome vars
 - [ ] Mobile ???
-- [x] Cleanup console errors
 - [ ] Fix right alignment of languages on projects
 
 **Deploy commnad:** `sudo npm --prefix star-site/ run deploy`

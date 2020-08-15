@@ -1,5 +1,5 @@
 import React from "react";
-import classNames from "classnames";
+
 import Header from "../../shared-components/Header";
 import "./WritingPage.css";
 import config from "./writing_config";

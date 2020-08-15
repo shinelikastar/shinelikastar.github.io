@@ -46,7 +46,6 @@ class Project extends React.Component {
 
   renderImage = () => {
     const { title, index } = this.props;
-    console.log(this.tokenizeTitle(title));
     const img = PROJECTS[this.tokenizeTitle(title)];
 
     const imageClass = classNames("Project-img", {

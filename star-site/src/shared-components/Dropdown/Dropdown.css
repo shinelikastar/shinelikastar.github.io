@@ -1,0 +1,6 @@
+.Dropdown-summary {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  display: inline-block;
+}
