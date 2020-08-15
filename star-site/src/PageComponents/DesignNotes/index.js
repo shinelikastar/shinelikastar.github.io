@@ -1,40 +1,42 @@
 // @flow
 import React from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 import "./DesignNotes.css";
 import Header from "../../shared-components/Header";
 
-const Accordion = ({ i, expanded, setExpanded }) => {
-  const isOpen = i === expanded;
+// const Accordion = ({ i, expanded, setExpanded }) => {
+//   const isOpen = i === expanded;
 
-  // By using `AnimatePresence` to mount and unmount the contents, we can animate
-  // them in and out while also only rendering the contents of open accordions
-  return (
-    <>
-      <motion.header
-        initial={false}
-        animate={{ backgroundColor: isOpen ? "#FF0088" : "#0055FF" }}
-        onClick={() => setExpanded(isOpen ? false : i)}
-      />
-      <AnimatePresence initial={false}>
-        {isOpen && (
-          <motion.section
-            key="content"
-            initial="collapsed"
-            animate="open"
-            exit="collapsed"
-            variants={{
-              open: { opacity: 1, height: "auto" },
-              collapsed: { opacity: 0, height: 0 },
-            }}
-            transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
-          >
-            <p>hello</p>
-          </motion.section>
-        )}
-      </AnimatePresence>
-    </>
-  );
-};
+//   // By using `AnimatePresence` to mount and unmount the contents, we can animate
+//   // them in and out while also only rendering the contents of open accordions
+//   return (
+//     <>
+//       <motion.header
+//         initial={false}
+//         animate={{ backgroundColor: isOpen ? "#FF0088" : "#0055FF" }}
+//         onClick={() => setExpanded(isOpen ? false : i)}
+//       />
+//       <AnimatePresence initial={false}>
+//         {isOpen && (
+//           <motion.section
+//             key="content"
+//             initial="collapsed"
+//             animate="open"
+//             exit="collapsed"
+//             variants={{
+//               open: { opacity: 1, height: "auto" },
+//               collapsed: { opacity: 0, height: 0 },
+//             }}
+//             transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
+//           >
+//             <p>hello</p>
+//           </motion.section>
+//         )}
+//       </AnimatePresence>
+//     </>
+//   );
+// };
 
 class DesignNotes extends React.Component {
   renderNotes = () => {
@@ -63,7 +65,7 @@ class DesignNotes extends React.Component {
     return (
       <div className="DesignNotes-page">
         <Header text="some notes on design 🌿" />
-        <div className="DesignNotes-container">{renderNotes()}</div>
+        <div className="DesignNotes-container">{this.renderNotes()}</div>
       </div>
     );
   }

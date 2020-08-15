@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import pointingUp from "../../assets/pointing-up.png";
+
+import "./TopButton.css";
+import pointingUp from "../assets/pointing-up.png";
 
 function TopButton() {
   const [lastYPos, setLastYPos] = React.useState(0);
