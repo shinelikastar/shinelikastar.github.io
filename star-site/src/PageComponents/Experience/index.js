@@ -84,7 +84,7 @@ class Experience extends React.Component {
     return (
       <div className="Experience-page">
         <Header text="some places i've worked  🐣" />
-        <div className="Tab-container">
+        <div className="Tab-container" data-aos="fade-up" data-aos-delay="200">
           {this.renderTabs()}
           {this.renderContent()}
         </div>

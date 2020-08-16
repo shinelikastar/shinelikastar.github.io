@@ -6,7 +6,7 @@
 }
 
 .Tab-container {
-  padding: 30px 34% 100px;
+  padding: 30px 32% 200px;
   height: 400px;
   display: block;
   align-items: center;
@@ -39,19 +39,24 @@
   align-items: center;
   -webkit-box-align: center;
 
-  width: 175px;
+  width: 200px;
   background-color: transparent;
   height: 50px;
   text-align: left;
   white-space: nowrap;
   border: none;
 
-  /* color: rgb(100, 255, 218); */
   text-decoration: none;
-  padding: 0px 20px 2px;
+  padding: 0px 0 2px;
+  justify-content: center;
+
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 
   border-bottom: 2px solid #cfdef3;
+}
+
+.Tab-button:focus {
+  outline: none;
 }
 
 .Tab-button:hover {
@@ -59,6 +64,7 @@
 }
 
 .Tab-button:active {
+  outline: none;
   background-color: #cfdef3;
 }
 
