@@ -2,6 +2,7 @@ export default {
   current: [
     {
       location: "Brown University",
+      role: "Rising senior",
 
       time_period: {
         start: "Sept 2017",

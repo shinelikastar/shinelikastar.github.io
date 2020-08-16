@@ -35,9 +35,8 @@ class Experience extends React.Component {
     return (
       <div className="Place" key={location}>
         <h4>{location}</h4>
-        {role}
+        {role} {" @"}
         {location}
-
         <p>
           {start} - {end}
         </p>
