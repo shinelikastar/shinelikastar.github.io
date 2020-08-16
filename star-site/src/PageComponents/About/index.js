@@ -6,12 +6,12 @@ import Dropdown from "../../shared-components/Dropdown";
 import girl from "../../assets/dozing.png";
 import "./About.css";
 
-const summary = "design notes 🌸";
+const summary = "design notes";
 const content = (
   <p>
     This is a space to name all the wondrous things that resulted in the
-    creation of this website. If you found any amount of delight in the drawings
-    (of me in various states), these were done by my{" "}
+    creation of this website. If you found any amount of delight in the
+    drawings, these were done by my{" "}
     <a href="https://floriatsui.github.io/">talented sister Floria</a>.<br></br>
     <br></br>
     The headers are set in Rowdies, the body in Jost. If you take typefaces

@@ -9,18 +9,17 @@ import eggs from "./images/eggs/eggs_static.png";
 import raisin from "./images/raisin_bread/raisin_bread_static.png";
 import address from "./images/address_autocomplete/address_autocomplete.gif";
 import ray from "./images/ray/ray_static.png";
-
 import "./Project.css";
 
-const iconColor = "rgb(16, 162, 245)";
+const iconBlue = "rgb(16, 162, 245)";
 const iconProps = {
   size: 20,
-  fill: iconColor,
+  fill: iconBlue,
   className: "Project-icon",
 };
 const linkProps = {
   size: 20,
-  stroke: iconColor,
+  stroke: iconBlue,
   className: "Project-icon",
 };
 

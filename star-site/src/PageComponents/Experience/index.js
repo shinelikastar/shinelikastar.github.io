@@ -1,8 +1,10 @@
 // @flow
 import React from "react";
+
 import Header from "../../shared-components/Header";
-import "./Experience.css";
+import Dropdown from "../../shared-components/Dropdown";
 import config from "./experience_config";
+import "./Experience.css";
 
 class Experience extends React.Component {
   static defaultProps = {
@@ -10,13 +12,15 @@ class Experience extends React.Component {
   };
 
   renderExperience = () => {
-    return <div className="Experience-container">Hello</div>;
+    return (
+      <div className="Experience-container">Hello this is WIP go away</div>
+    );
   };
 
   render() {
     return (
       <>
-        <Header text="some places i've been 🌈" />
+        <Header text="some places i've worked 🎒" />
         {this.renderExperience()}
       </>
     );

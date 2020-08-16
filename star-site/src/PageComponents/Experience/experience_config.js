@@ -1,5 +1,5 @@
 export default {
-  currently: [
+  current: [
     {
       place: "Brown University",
 

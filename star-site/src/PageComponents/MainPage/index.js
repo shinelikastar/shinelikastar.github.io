@@ -23,11 +23,7 @@ function MainPage() {
             data-aos="fade-down"
             data-aos-delay="300"
           />
-          <div
-            className="Welcome-container"
-            // data-aos="fade-left"
-            // data-aos-delay="200"
-          >
+          <div className="Welcome-container">
             <p className="DisplayText">
               hi, it's star{" "}
               <span

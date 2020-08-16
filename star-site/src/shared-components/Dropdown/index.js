@@ -1,5 +1,6 @@
 // @flow
 import React from "react";
+import { motion } from "framer-motion";
 import "./Dropdown.css";
 
 class Dropdown extends React.Component {
@@ -27,6 +28,13 @@ class Dropdown extends React.Component {
     return (
       <div className="Dropdown-summary" onClick={this.handleToggle}>
         {summary}
+        <motion.span
+          className="Dropdown-point-icon"
+          whileHover={{ y: 5 }}
+          whileTap={{ scale: 0.8 }}
+        >
+          👇
+        </motion.span>
       </div>
     );
   }

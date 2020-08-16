@@ -3,15 +3,17 @@
 ### Pages
 
 - [ ] Design experience page!
-- [ ] Create dropdown for design notes with emoji as chevron
-- [ ] Add about section
-- [ ] Use `flex` positioning
+- [x] Add about section
+- [x] Use `flex` positioning
 
 #### Work
 
-- [ ] Design the animation to show text
+- [x] Design the animation to show text
 - [x] Add address autocomplete GIF
 - [ ] **Add other projects section**
+
+#### Design notes
+- [ ] Add plus/minus icon
 
 ### Animations
 
@@ -37,5 +39,6 @@
 - [ ] Refactor using new awesome vars
 - [ ] Mobile ???
 - [ ] Fix right alignment of languages on projects
+- [ ] Make scrolling snappy for each `section`
 
 **Deploy commnad:** `sudo npm --prefix star-site/ run deploy`
