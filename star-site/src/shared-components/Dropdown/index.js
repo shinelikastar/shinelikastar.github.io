@@ -25,6 +25,8 @@ class Dropdown extends React.Component {
 
   renderSummary() {
     const { summary } = this.props;
+    const { active } = this.state;
+
     return (
       <div className="Dropdown-summary" onClick={this.handleToggle}>
         {summary}
@@ -33,7 +35,7 @@ class Dropdown extends React.Component {
           whileHover={{ y: 5 }}
           whileTap={{ scale: 0.8 }}
         >
-          👇
+          {active ? "👆" : "👇"}
         </motion.span>
       </div>
     );
