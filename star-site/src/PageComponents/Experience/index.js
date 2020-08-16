@@ -1,10 +1,16 @@
 // @flow
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 import Header from "../../shared-components/Header";
 import config from "./experience_config";
 import PlaceButton from "./PlaceButton";
 import "./Experience.css";
+
+const iconProps = {
+  size: 25,
+};
 
 class Experience extends React.Component {
   static defaultProps = {
@@ -80,6 +86,28 @@ class Experience extends React.Component {
     );
   };
 
+  renderWorkIcons = () => {
+    return (
+      <ul className="Icon-container">
+        <li>
+          <a href="https://github.com/shinelikastar">
+            <FaGithub {...iconProps} />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/star-su-992866170/">
+            <FaLinkedin {...iconProps} />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:star_su@brown.edu">
+            <MdEmail {...iconProps} />
+          </a>
+        </li>
+      </ul>
+    );
+  };
+
   render() {
     return (
       <div className="Experience-page">
@@ -88,6 +116,7 @@ class Experience extends React.Component {
           {this.renderTabs()}
           {this.renderContent()}
         </div>
+        {this.renderWorkIcons()}
       </div>
     );
   }
