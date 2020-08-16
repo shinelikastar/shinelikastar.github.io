@@ -11,10 +11,26 @@ class Experience extends React.Component {
     config: config,
   };
 
-  renderExperience = () => {
+  renderTabs = () => {
+    const tabs = ["past", "current", "future"];
+
     return (
-      <div className="Experience-container">Hello this is WIP go away</div>
+      <ul>
+        {tabs.map((tab) => {
+          return (
+            <li>
+              <button>
+                <span>{tab}</span>
+              </button>
+            </li>
+          );
+        })}
+      </ul>
     );
+  };
+
+  renderExperience = () => {
+    return <div className="Tab-container">{this.renderTabs()}</div>;
   };
 
   render() {
