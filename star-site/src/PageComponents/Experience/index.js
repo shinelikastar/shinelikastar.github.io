@@ -19,7 +19,6 @@ class Experience extends React.Component {
   }
 
   handleContentSwitch = (tabKey) => {
-    console.log(tabKey);
     this.setState({
       activeKey: tabKey,
     });
@@ -34,14 +33,16 @@ class Experience extends React.Component {
 
     return (
       <div className="Place" key={location}>
-        <h4>
-          {role}{" "}
-          <span className="Place-location">
-            {" "}
-            {" @"}
-            {location}
-          </span>
-        </h4>
+        <div className="Place-location">
+          <h4>
+            <span className="Place-role">{role} </span>
+            <span className="Place-location-text">
+              {" "}
+              {" @"}
+              {location}
+            </span>
+          </h4>
+        </div>
 
         <p className="Place-time">
           {start} {end ? `- ${end}` : "- present"}
@@ -59,16 +60,19 @@ class Experience extends React.Component {
   };
 
   renderTabs = () => {
-    const tabs = ["past 🌒", "current 🌔", "future 🌖"];
+    const tabLabels = ["past 🌒", "current 🌔", "future 🌖"];
+    const tabs = ["past", "current", "future"];
+    const { activeKey } = this.state;
 
     return (
       <ul>
-        {tabs.map((tab) => {
+        {tabs.map((tab, index) => {
           return (
             <PlaceButton
               onPlaceButtonClick={this.handleContentSwitch}
-              tab={tab}
+              label={tabLabels[index]}
               key={tab}
+              active={tab === activeKey}
             />
           );
         })}
@@ -76,19 +80,14 @@ class Experience extends React.Component {
     );
   };
 
-  renderExperience = () => {
-    return (
-      <div className="Tab-container">
-        {this.renderTabs()} {this.renderContent()}
-      </div>
-    );
-  };
-
   render() {
     return (
       <div className="Experience-page">
-        <Header text="some places i've worked 🎒" />
-        {this.renderExperience()}
+        <Header text="some places i've worked  🐣" />
+        <div className="Tab-container">
+          {this.renderTabs()}
+          {this.renderContent()}
+        </div>
       </div>
     );
   }

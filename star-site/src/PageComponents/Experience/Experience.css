@@ -5,6 +5,13 @@
   margin: 0;
 }
 
+.Tab-container {
+  padding: 30px 34% 100px;
+  height: 400px;
+  display: block;
+  align-items: center;
+}
+
 .Tab-container ul {
   display: block;
   position: relative;
@@ -24,31 +31,35 @@
   font-size: 20px;
   font-family: var(--font-header);
 
+  margin: 0;
+
   text-decoration-skip-ink: auto;
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%;
+  -webkit-box-align: center;
+
+  width: 175px;
   background-color: transparent;
   height: 50px;
   text-align: left;
   white-space: nowrap;
   border: none;
-  border-radius: 3px;
-  margin: 0 20px;
 
   /* color: rgb(100, 255, 218); */
   text-decoration: none;
   padding: 0px 20px 2px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 
-  /* border-top: 2px solid rgb(48, 60, 85); */
+  border-bottom: 2px solid #cfdef3;
 }
 
-.Tab-container {
-  padding: 30px 34%;
-  display: block;
-  align-items: center;
+.Tab-button:hover {
+  background-color: #cfdef3;
+}
+
+.Tab-button:active {
+  background-color: #cfdef3;
 }
 
 .Tab-heading {
@@ -57,9 +68,18 @@
 }
 
 .Place-location {
-  color: var(--color-light);
+  padding: 0 0 10px 0;
+}
+
+.Place-role {
+  font-size: 18px;
+}
+
+.Place-location-text {
+  color: var(--color-light-periwinkle);
+  font-weight: 500;
 }
 
 .Place-time {
-  color: var(--color-light);
+  color: var(--color-dark-periwinkle);
 }

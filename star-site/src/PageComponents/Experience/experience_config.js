@@ -29,7 +29,7 @@ export default {
   past: [
     {
       location: "Stripe",
-      role: "Head Teaching Assistant",
+      role: "SWE intern",
 
       time_period: {
         start: "May 2020",
@@ -38,7 +38,7 @@ export default {
     },
     {
       location: "Crowds + Machines Laboratory",
-      role: "Head Teaching Assistant",
+      role: "Researcher",
 
       time_period: {
         start: "May 2019",
