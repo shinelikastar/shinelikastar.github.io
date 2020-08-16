@@ -1,7 +1,7 @@
 export default {
   current: [
     {
-      place: "Brown University",
+      location: "Brown University",
 
       time_period: {
         start: "Sept 2017",
@@ -9,7 +9,7 @@ export default {
       },
     },
     {
-      place: "Intro to Computer Systems",
+      location: "Intro to Computer Systems",
       role: "Head Teaching Assistant",
 
       time_period: {
@@ -17,7 +17,7 @@ export default {
       },
     },
     {
-      place: "Visual Computing Lab",
+      location: "Visual Computing Lab",
       role: "Researcher",
 
       time_period: {
@@ -27,7 +27,7 @@ export default {
   ],
   past: [
     {
-      place: "Stripe",
+      location: "Stripe",
       role: "Head Teaching Assistant",
 
       time_period: {
@@ -36,7 +36,7 @@ export default {
       },
     },
     {
-      place: "Crowds + Machines Laboratory",
+      location: "Crowds + Machines Laboratory",
       role: "Head Teaching Assistant",
 
       time_period: {
@@ -45,13 +45,19 @@ export default {
       },
     },
     {
-      place: "UChicago",
+      location: "UChicago",
       role: "National Science Foundation research recipient",
 
       time_period: {
         start: "June 2018",
         end: "Aug 2018",
       },
+    },
+  ],
+  future: [
+    {
+      location: "Looking for new grad!",
+      role: "Seeking",
     },
   ],
 };

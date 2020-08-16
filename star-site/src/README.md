@@ -3,8 +3,12 @@
 ### Pages
 
 - [ ] Design experience page!
-- [x] Add about section
-- [x] Use `flex` positioning
+- [x] Add about page
+  - [ ] Write about section
+  - [ ] Refactor to another component so `Place` rerenders
+
+- [x] Use `flex` positioning everywhere !!!
+- [ ] - [ ] Mobile ???
 
 #### Work
 
@@ -13,11 +17,11 @@
 - [ ] **Add other projects section**
 
 #### Design notes
-- [ ] Add plus/minus icon
+- [x] Add plus/minus icon
 
 ### Animations
 
-- [ ] Add more scroll animations, specifically for each component
+- [x] Add more scroll animations, specifically for each component
 - [ ] Create flip card for projects
 - [ ] Loading logo
   - [ ] Create `Loader` component?
@@ -37,7 +41,6 @@
 
 - [ ] Add `vars.css`
 - [ ] Refactor using new awesome vars
-- [ ] Mobile ???
 - [ ] Fix right alignment of languages on projects
 - [ ] Make scrolling snappy for each `section`
 
