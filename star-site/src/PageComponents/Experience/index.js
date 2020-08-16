@@ -2,7 +2,6 @@
 import React from "react";
 
 import Header from "../../shared-components/Header";
-import Dropdown from "../../shared-components/Dropdown";
 import config from "./experience_config";
 import "./Experience.css";
 
@@ -11,16 +10,18 @@ class Experience extends React.Component {
     config: config,
   };
 
+  renderContent = () => {};
+
   renderTabs = () => {
-    const tabs = ["past", "current", "future"];
+    const tabs = ["past 🌒", "current 🌔", "future 🌖"];
 
     return (
       <ul>
         {tabs.map((tab) => {
           return (
-            <li>
-              <button>
-                <span>{tab}</span>
+            <li key={tab}>
+              <button className="Tab-button">
+                <span className="Tab-heading">{tab}</span>
               </button>
             </li>
           );
@@ -35,10 +36,10 @@ class Experience extends React.Component {
 
   render() {
     return (
-      <>
+      <div className="Experience-page">
         <Header text="some places i've worked 🎒" />
         {this.renderExperience()}
-      </>
+      </div>
     );
   }
 }
