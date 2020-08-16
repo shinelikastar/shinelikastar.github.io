@@ -1,3 +1,5 @@
+@import "../../shared-components/vars.css";
+
 .Girl-container {
   position: relative;
 }
@@ -10,7 +12,7 @@
 
 .DisplayText {
   font-size: xx-large;
-  font-family: "Rowdies", cursive;
+  font-family: var(--font-header);
 }
 
 .Welcome-container {

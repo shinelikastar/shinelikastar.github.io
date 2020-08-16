@@ -1,0 +1,7 @@
+:root {
+  --color-blue: rgb(16, 162, 245);
+  --color-light: rgb(168, 178, 209);
+
+  --font-header: "Rowdies", cursive;
+  --font-robot: Inconsolata, monospace;
+}

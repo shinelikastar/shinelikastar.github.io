@@ -3,7 +3,9 @@ import React from "react";
 
 class PlaceButton extends React.Component {
   handleContentSwitch = () => {
-    console.log("hello");
+    const { tab } = this.props;
+
+    this.props.onPlaceButtonClick(tab.split(" ")[0]);
   };
 
   render() {

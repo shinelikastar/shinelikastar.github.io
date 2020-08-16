@@ -1,3 +1,5 @@
+@import "../../shared-components/vars.css";
+
 .Experience-page {
   display: block;
   margin: 0;
@@ -20,7 +22,7 @@
 .Tab-button {
   cursor: pointer;
   font-size: 20px;
-  font-family: "Rowdies", cursive;
+  font-family: var(--font-header);
 
   text-decoration-skip-ink: auto;
   position: relative;
@@ -47,10 +49,17 @@
   padding: 30px 34%;
   display: block;
   align-items: center;
-  /* position: absolute; */
 }
 
 .Tab-heading {
   font-size: 20px;
-  font-family: "Rowdies", cursive;
+  font-family: var(--font-header);
+}
+
+.Place-location {
+  color: var(--color-light);
+}
+
+.Place-time {
+  color: var(--color-light);
 }

@@ -20,9 +20,9 @@ class Experience extends React.Component {
 
   handleContentSwitch = (tabKey) => {
     console.log(tabKey);
-    this.setState = {
+    this.setState({
       activeKey: tabKey,
-    };
+    });
   };
 
   renderPlace = (place) => {
@@ -34,11 +34,17 @@ class Experience extends React.Component {
 
     return (
       <div className="Place" key={location}>
-        <h4>{location}</h4>
-        {role} {" @"}
-        {location}
-        <p>
-          {start} - {end}
+        <h4>
+          {role}{" "}
+          <span className="Place-location">
+            {" "}
+            {" @"}
+            {location}
+          </span>
+        </h4>
+
+        <p className="Place-time">
+          {start} {end ? `- ${end}` : "- present"}
         </p>
         <br></br>
       </div>
@@ -58,7 +64,13 @@ class Experience extends React.Component {
     return (
       <ul>
         {tabs.map((tab) => {
-          return <PlaceButton tab={tab} key={tab} />;
+          return (
+            <PlaceButton
+              onPlaceButtonClick={this.handleContentSwitch}
+              tab={tab}
+              key={tab}
+            />
+          );
         })}
       </ul>
     );

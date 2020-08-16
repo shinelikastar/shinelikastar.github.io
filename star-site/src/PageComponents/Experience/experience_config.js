@@ -57,8 +57,12 @@ export default {
   ],
   future: [
     {
-      location: "Looking for new grad!",
-      role: "Seeking",
+      location: "new grad!",
+      role: "Seeking SWE opportunities",
+
+      time_period: {
+        start: "For 2021 roles",
+      },
     },
   ],
 };

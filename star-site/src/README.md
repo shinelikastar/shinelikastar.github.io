@@ -39,7 +39,7 @@
 
 ### Cleanup
 
-- [ ] Add `vars.css`
+- [x] Add `vars.css`
 - [ ] Refactor using new awesome vars
 - [ ] Fix right alignment of languages on projects
 - [ ] Make scrolling snappy for each `section`
