@@ -22,7 +22,7 @@
   width: 450px;
   position: absolute;
   border-radius: 4px;
-  box-shadow: 0 10px 25px 2px grey;
+  box-shadow: var(--project-box-shadow);
 }
 
 .Project-img--left {
@@ -81,7 +81,7 @@
   font-weight: 600;
   padding: 2px 10px;
   border-radius: 3px;
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: var(--color-dark-blue);
+  border: 1px solid var(--color-dark-blue);
   background: 0 0;
 }

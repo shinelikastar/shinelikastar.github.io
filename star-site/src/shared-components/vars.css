@@ -1,5 +1,6 @@
 :root {
-  --color-blue: rgb(16, 162, 245);
+  --color-light-blue: rgb(16, 162, 245);
+  --color-dark-blue: #007bff;
   --color-light-periwinkle: #88ace0;
   --color-dark-periwinkle: rgb(168, 178, 209);
 
@@ -7,4 +8,6 @@
   --font-robot: Inconsolata, monospace;
 
   --font-size-welecome: 25px;
+
+  --project-box-shadow: 0 10px 25px 2px grey;
 }

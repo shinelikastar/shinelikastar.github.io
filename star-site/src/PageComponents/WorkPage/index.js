@@ -7,18 +7,8 @@ import "./WorkPage.css";
 class WorkPage extends React.Component {
   renderProjects = () => {
     return project_config.map((project, index) => {
-      const { title, description, languages, links, imgs } = project;
-      return (
-        <Project
-          key={title}
-          index={index}
-          title={title}
-          description={description}
-          imgs={imgs}
-          languages={languages}
-          links={links}
-        />
-      );
+      const { title } = project;
+      return <Project key={title} index={index} {...project} />;
     });
   };
 
