@@ -42,25 +42,31 @@
   .Welcome-container {
     flex-direction: column-reverse;
     justify-content: center;
+    text-align: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 50px 30px 0 0;
   }
 
   .Girl-diva {
-    height: 400px;
+    height: 500px;
     width: auto;
-    margin: 0;
-    padding: 0;
+    margin: 30px 0 0 30px;
   }
 
   .Welcome-text-container {
-    margin-left: 60px;
+    margin-left: 40px;
     width: 300px;
     min-width: 300px;
     letter-spacing: 1.25px;
   }
 
+  .DisplayText,
+  .Welcome-subtext,
+  .Girl-diva {
+    margin-top: 30px;
+  }
+
   .Welcome-subtext {
-    font-size: 15px;
+    font-size: 14px;
   }
 }

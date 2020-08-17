@@ -12,13 +12,12 @@ code {
   font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
 
-html,
 body {
-  height: 100%;
   width: 100%;
-  margin: 0 !important;
+  margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 a {
