@@ -1,5 +1,9 @@
 ### TODO
 
+### Audit of flex refactor
+- [ ] Put each page into a `section`
+- [ ] Add flex for each `section`
+
 ### Pages
 
 - [ ] Design experience page!

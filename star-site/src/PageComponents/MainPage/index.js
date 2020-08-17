@@ -13,32 +13,37 @@ import TopButton from "../../shared-components/TopButton/";
 
 function MainPage() {
   function renderWelcome() {
+    const caption = "Picture of a girl with sunglasses in a blue overall dress";
+
     return (
-      <header className="App-header">
-        <div className="Girl-container">
+      <section className="Welcome-section">
+        <div className="Welcome-container">
           <img
             src={girl}
             className="Girl-diva"
-            alt=""
+            alt={caption}
             data-aos="fade-down"
             data-aos-delay="300"
           />
-          <div className="Welcome-container">
+
+          <div className="Welcome-text-container">
             <p className="DisplayText">
               hi, it's star{" "}
               <span
                 role="img"
-                aria-label="peace sign"
+                aria-label="peace sign emoji"
                 data-aos="fade-up"
                 data-aos-delay="900"
               >
                 ✌️
               </span>
             </p>
-            <p>welcome 2 an online representation of me </p>
+            <p className="Welcome-subtext">
+              welcome 2 an online representation of me{" "}
+            </p>
           </div>
         </div>
-      </header>
+      </section>
     );
   }
 
