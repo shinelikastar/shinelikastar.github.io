@@ -26,7 +26,7 @@ class WorkPage extends React.Component {
     const headerText = "some things i've built 💥";
 
     return (
-      <section className="WorkPage-container">
+      <section className="Work-section">
         <Header text={headerText} />
         <div className="Project-all-container">{this.renderProjects()}</div>
       </section>
