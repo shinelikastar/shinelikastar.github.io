@@ -9,14 +9,15 @@ import "./About.css";
 const summary = "design notes";
 const content = (
   <p>
-    This is a space to name all the wondrous things that resulted in the
-    creation of this website. If you found any amount of delight in the
-    drawings, these were done by my{" "}
+    If you found any amount of delight in the drawings, these were done by my{" "}
     <a href="https://floriatsui.github.io/">talented sister Floria</a>.<br></br>
     <br></br>
     The headers are set in Rowdies, the body in Jost. If you take typefaces
     seriously, I want you to know that I am a serifs girl. Their delicate
     temperament was not suited for the ample usage of emojis.
+    <br></br>
+    <br></br>
+    Built using React.
     <br></br>
   </p>
 );

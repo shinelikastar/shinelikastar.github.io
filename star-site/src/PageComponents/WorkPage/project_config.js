@@ -17,7 +17,7 @@ export default [
       "During my summer 2020 internship at Stripe, I designed a new form field UI for their Checkout page that searches for addresses as users type. I learned so much about the intricacies and level of detail that goes into building one component. Very excited to see something I built be used in the real world!",
     languages: ["React", "Framer Motion", "Redux", "Ruby", "Jest"],
     links: {
-      redirect: "https://github.com/shinelikastar/cs1230-eggs",
+      redirect: "https://stripe.com/payments/checkout",
     },
     imgs: {
       static: "./images/eggs/eggs_static.png",

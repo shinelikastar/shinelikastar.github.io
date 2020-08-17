@@ -10,7 +10,7 @@ export default {
       },
     },
     {
-      location: "Intro to Computer Systems",
+      location: "Computer Systems",
       role: "Head Teaching Assistant",
 
       time_period: {
@@ -30,6 +30,15 @@ export default {
     {
       location: "Stripe",
       role: "SWE intern",
+
+      time_period: {
+        start: "May 2020",
+        end: "Aug 2020",
+      },
+    },
+    {
+      location: "Computer Systems Fundamentals",
+      role: "Course Development and Undergraduate TA",
 
       time_period: {
         start: "May 2020",
