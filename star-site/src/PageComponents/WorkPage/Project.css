@@ -32,17 +32,18 @@
 
 .Project-board--left {
   position: absolute;
-  text-align: justify;
+  text-align: left;
 }
 
 .Project-board--right {
   position: absolute;
-  text-align: justify;
+  text-align: right;
   left: 850px;
 }
 
 .Project-text {
   padding: 10px 0;
+  letter-spacing: 0.4px;
 }
 
 .Project-header {
