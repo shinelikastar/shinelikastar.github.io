@@ -2,6 +2,11 @@
 
 .Project-container {
   padding: 90px 0 380px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 1000px;
+  min-width: 1000px;
 }
 
 .Project-container:last-of-type {
@@ -10,6 +15,7 @@
 
 .Project-img-container {
   position: absolute;
+  display: block;
 }
 
 .Project-img {
@@ -24,7 +30,6 @@
 }
 
 .Project-board {
-  margin-top: 50px;
   width: 375px;
   padding: 25px 0;
   font-size: 15px;
