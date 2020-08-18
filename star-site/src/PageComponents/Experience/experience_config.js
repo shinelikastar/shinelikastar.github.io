@@ -29,7 +29,7 @@ export default {
   past: [
     {
       location: "Stripe",
-      role: "SWE intern",
+      role: "Full-stack engineering intern",
 
       time_period: {
         start: "May 2020",

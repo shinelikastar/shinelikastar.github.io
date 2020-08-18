@@ -7,7 +7,12 @@
   --font-header: "Rowdies", cursive;
   --font-robot: Inconsolata, monospace;
 
-  --font-size-welecome: 25px;
+  --font-size-welcome: 25px;
+  --font-size-header: 27px;
+  --font-size-language-elem: 0.6rem;
+  --font-size-project-description: 13px;
+
+  --font-weight-language-elem: 600;
 
   --project-box-shadow: 0 10px 25px 2px grey;
 }

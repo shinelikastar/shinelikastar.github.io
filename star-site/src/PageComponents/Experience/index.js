@@ -110,7 +110,7 @@ class Experience extends React.Component {
 
   render() {
     return (
-      <section className="Experience-page">
+      <section className="Experience-section">
         <Header text="some places i've worked  🐣" />
         <div className="Tab-container" data-aos="fade-up" data-aos-delay="200">
           {this.renderTabs()}

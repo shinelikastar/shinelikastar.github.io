@@ -1,10 +1,12 @@
+@import "../vars.css";
+
 .Header-text {
-  font-size: 30px;
-  font-family: "Rowdies", cursive;
-  letter-spacing: 1px;
+  font-size: var(--font-size-welcome);
+  font-family: var(--font-header);
+  letter-spacing: 1.4px;
 }
 
 .Header-container {
   text-align: center;
-  padding: 100px 0 50px;
+  padding: 100px 0 25px;
 }

@@ -22,6 +22,7 @@
   padding: 100px 0;
   display: flex;
   flex-wrap: wrap;
+  letter-spacing: 0.75px;
 }
 
 .Girl-dozing {

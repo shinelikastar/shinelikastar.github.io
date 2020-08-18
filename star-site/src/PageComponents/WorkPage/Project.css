@@ -32,7 +32,7 @@
 .Project-board {
   width: 375px;
   padding: 25px 0;
-  font-size: 15px;
+  font-size: var(--font-size-project-description);
 }
 
 .Project-board--left {
@@ -77,8 +77,8 @@
 .Language-list-elem {
   margin: 3px 10px 3px 0;
   font-family: var(--font-robot);
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-size: var(--font-size-language-elem);
+  font-weight: var(--font-weight-language-elem);
   padding: 2px 10px;
   border-radius: 3px;
   color: var(--color-dark-blue);

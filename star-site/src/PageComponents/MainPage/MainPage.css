@@ -24,7 +24,7 @@
 }
 
 .DisplayText {
-  font-size: var(--font-size-welecome);
+  font-size: var(--font-size-welcome);
   font-family: var(--font-header);
 }
 
