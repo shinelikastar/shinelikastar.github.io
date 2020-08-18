@@ -116,7 +116,7 @@ class Experience extends React.Component {
           {this.renderTabs()}
           {this.renderContent()}
         </div>
-        {this.renderWorkIcons()}
+        {/* {this.renderWorkIcons()} */}
       </section>
     );
   }
