@@ -30,6 +30,7 @@
 }
 
 .Project-board {
+  margin-top: 20px;
   width: 375px;
   padding: 25px 0;
   font-size: var(--font-size-project-description);
@@ -43,7 +44,7 @@
 .Project-board--right {
   position: absolute;
   text-align: right;
-  left: 800px;
+  left: 850px;
 }
 
 .Project-text {
