@@ -23,7 +23,7 @@ class About extends React.Component {
       <div
         className="Girl-dozing-container"
         data-aos="fade-left"
-        data-aos-delay="200"
+        data-aos-delay="300"
       >
         <img src={girl} alt="" className="Girl-dozing" />
       </div>

@@ -57,7 +57,7 @@ class Dropdown extends React.Component {
 
   render() {
     return (
-      <div className="Dropdown">
+      <div className="Dropdown" data-aos="fade-up" data-aos-delay="300">
         {this.renderSummary()}
         {this.renderContent()}
       </div>

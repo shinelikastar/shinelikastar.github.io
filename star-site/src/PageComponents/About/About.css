@@ -6,19 +6,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 50px 0;
 }
 
 .About-container {
-  /* padding-top: 80px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
-
+  padding: 50px 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0;
   letter-spacing: 0.75px;
 }
 
@@ -28,15 +24,14 @@
 
 .Girl-dozing-container {
   display: block;
-  padding: 0 50px;
+  margin-left: 100px;
 }
 
 .About-dropdown {
-  margin: 0;
-  padding-left: 25%;
   display: block;
   z-index: 2;
-  width: 20rem;
+  width: 18rem;
+  margin-left: 100px;
 }
 
 .About-content {
