@@ -42,3 +42,28 @@
   line-height: 1.5;
   font-size: 14px;
 }
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .About-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .About-dropdown {
+    margin: 0;
+    text-align: left;
+  }
+
+  .Girl-dozing-container {
+    margin-left: 50px;
+  }
+
+  .DesignNotes-section {
+    padding: 0;
+  }
+}

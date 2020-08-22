@@ -27,9 +27,3 @@ a {
   font-weight: 700;
   color: inherit;
 }
-
-@media screen and (min-width: 601px) {
-  /* body {
-    padding: 2.5em;
-  } */
-}

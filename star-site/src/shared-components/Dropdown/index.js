@@ -18,13 +18,16 @@ class Dropdown extends React.Component {
   }
 
   handleToggle = () => {
+    const { defaultActive } = this.props;
+    if (defaultActive) return;
+
     this.setState({
       active: !this.state.active,
     });
   };
 
   renderSummary() {
-    const { summary } = this.props;
+    const { defaultActive, summary } = this.props;
     const { active } = this.state;
 
     return (
@@ -35,7 +38,7 @@ class Dropdown extends React.Component {
           whileHover={{ y: 5 }}
           whileTap={{ scale: 0.8 }}
         >
-          {active ? "👆" : "👇"}
+          {defaultActive ? "" : active ? "👆" : "👇"}
         </motion.span>
       </div>
     );
