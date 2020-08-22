@@ -2,7 +2,7 @@
   cursor: pointer;
   user-select: none;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Rowdies", cursive;
 
   display: flex;
@@ -10,14 +10,15 @@
 }
 
 .Dropdown {
-  height: 300px;
-  min-height: 350px;
+  height: 150px;
+  min-height: 200px;
   width: 100%;
   max-width: 300px;
 }
 
 .Dropdown p {
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .Dropdown a {

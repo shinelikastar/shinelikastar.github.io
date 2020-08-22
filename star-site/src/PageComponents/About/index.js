@@ -12,12 +12,7 @@ const content = (
     If you found any amount of delight in the drawings, these were done by my{" "}
     <a href="https://floriatsui.github.io/">talented sister Floria</a>.<br></br>
     <br></br>
-    The headers are set in Rowdies, the body in Jost. If you take typefaces
-    seriously, I want you to know that I am a serifs girl. Their delicate
-    temperament was not suited for the ample usage of emojis.
-    <br></br>
-    <br></br>
-    Built using React.
+    The headers are set in Rowdies, the body in Jost. Built using React.
     <br></br>
   </p>
 );
@@ -35,22 +30,39 @@ class About extends React.Component {
     );
   }
 
+  renderAbout() {
+    return (
+      <div className="About-content">
+        <p className="About-text">
+          Hi! If we met in real life, I would probably try to give you a cup of
+          tea and something I've baked.
+          <br></br>
+          <br></br>I really like building stuff (soft-bread or soft-ware),
+          crossword puzzles, fussy ways of making coffee, learning and teaching,
+          figure skating, and reading anything I come across.
+        </p>
+      </div>
+    );
+  }
+
   render() {
     return (
-      <div className="DesignNotes-page">
+      <section className="DesignNotes-section">
         <Header text="about 🌿" />
+
         <div className="About-container">
           <div
             className="About-dropdown"
             data-aos="fade-up"
             data-aos-delay="200"
           >
+            {this.renderAbout()}
             <Dropdown summary={summary} content={content} />
           </div>
 
           {this.renderGirlDozing()}
         </div>
-      </div>
+      </section>
     );
   }
 }
