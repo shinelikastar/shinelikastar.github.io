@@ -1,8 +1,7 @@
 import React from "react";
-
 import Header from "../../shared-components/Header";
-import "./WritingPage.css";
 import config from "./writing_config";
+import "./WritingPage.css";
 
 class WritingPage extends React.Component {
   static defaultProps = {

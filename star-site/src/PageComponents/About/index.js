@@ -13,6 +13,7 @@ const content = (
       href="https://floriatsui.github.io/"
       target="_blank"
       rel="noopener noreferrer"
+      className="Link-highlight"
     >
       talented sister Floria
     </a>

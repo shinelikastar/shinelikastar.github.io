@@ -2,7 +2,7 @@ export default [
   {
     title: "Weenix",
     description:
-      "Unix-like kernel built as a semester long project for Operating Systems (CS167/69). It's hard to articulate how much I loved building this. Ask me about shadow chains in fork, or the days-long bug I had in my waitpid implementation. I am now always down to learn and patience my way through systems programming.",
+      "Unix-like kernel built as a semester long project for Operating Systems (CS167/69). Getting the chance to work at such a low level and understanding how each part of the operating system works, made me really love systems. Hands down, the coolest thing I ever programmed. ",
     languages: ["A lot of C", "A lot of GDB", "Assembly"],
     links: {
       github: "https://github.com/brown-cs1690/weenix-2020-shinelikastar",
@@ -26,7 +26,7 @@ export default [
   {
     title: "Eggs-ibition",
     description:
-      "Photorealistic rendering of eggs with depth of field, texture, displacement and shadow mapping, mounted on a Bézier camera. This was a whimsical project I worked on with my friends for the final in Graphics (CS1230), modeling a museum for eggs. We learned that shadow mapping is hard, eggs do not obey mathematical modeling, and that GLSL is maddening to debug, but always just so cool.",
+      "Photorealistic rendering of eggs with depth of field, texture, displacement and shadow mapping, mounted on a Bézier camera. This was a whimsical project I worked on with my friends for the final in Graphics (CS1230), modeling a museum for eggs. We learned that shadow mapping is hard, eggs do not obey mathematical modeling, and shaders are powerful.",
     languages: ["C++", "GLSL"],
     links: {
       github: "https://github.com/shinelikastar/cs1230-eggs",
