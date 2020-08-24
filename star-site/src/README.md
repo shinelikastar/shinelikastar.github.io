@@ -1,18 +1,16 @@
 ### TODO
 
 ### Audit of flex refactor
-- [ ] Put each page into a `section`
+- [x] Put each page into a `section`
 - [ ] Add flex for each `section`
 
 ### Pages
 
-- [ ] Design experience page!
+- [x] Design experience page!
 - [x] Add about page
-  - [ ] Write about section
-  - [ ] Refactor to another component so `Place` rerenders
-
+  - [x] Write about section
+  - [x] Refactor to another component so `Place` rerenders
 - [x] Use `flex` positioning everywhere !!!
-- [ ] - [ ] Mobile ???
 
 #### Work
 
@@ -28,7 +26,6 @@
 - [x] Add more scroll animations, specifically for each component
 - [ ] Create flip card for projects
 - [ ] Loading logo
-  - [ ] Create `Loader` component?
 
 ### Footer
 
@@ -38,14 +35,16 @@
 ### Polish backlog
 
 - [x] Find awesome font -- many creds to Flor
-- [ ] Change favicon lol
+- [x] Change favicon lol
 - [ ] Use (this for color highlight on hover)[https://codepen.io/bchiang7/pen/GgdOKE]
 
 ### Cleanup
 
-- [x] Add `vars.css`
-- [ ] Refactor using new awesome vars
 - [ ] Fix right alignment of languages on projects
-- [ ] Make scrolling snappy for each `section`
+- [ ] Mobile !!
+- [ ] Redesign writing page
+  - [ ] Too jarring?
+  - [ ] Maybe use a grid / tiling effect
+
 
 **Deploy commnad:** `sudo npm --prefix star-site/ run deploy`
