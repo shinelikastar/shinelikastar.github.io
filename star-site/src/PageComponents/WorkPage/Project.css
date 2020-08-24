@@ -9,10 +9,6 @@
   min-width: 1000px;
 }
 
-.Project-container:last-of-type {
-  margin-bottom: 100px;
-}
-
 .Project-img-container {
   position: absolute;
   display: block;

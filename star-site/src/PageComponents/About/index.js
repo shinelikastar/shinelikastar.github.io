@@ -1,6 +1,5 @@
 // @flow
 import React from "react";
-import { isDesktop, isMobile } from "react-device-detect";
 import Header from "../../shared-components/Header";
 import Dropdown from "../../shared-components/Dropdown";
 import girl from "../../assets/dozing.png";
@@ -63,23 +62,10 @@ class About extends React.Component {
             data-aos-delay="200"
           >
             {this.renderAbout()}
-            {isDesktop && (
-              <Dropdown
-                defaultActive={isMobile}
-                summary={summary}
-                content={content}
-              />
-            )}
+            <Dropdown summary={summary} content={content} />
           </div>
 
           {this.renderGirlDozing()}
-          {isMobile && (
-            <Dropdown
-              defaultActive={isMobile}
-              summary={summary}
-              content={content}
-            />
-          )}
         </div>
       </section>
     );
