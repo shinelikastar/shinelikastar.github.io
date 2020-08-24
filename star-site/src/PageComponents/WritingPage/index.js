@@ -18,14 +18,20 @@ class WritingPage extends React.Component {
 
     return (
       <div className={`line-${index}`} key={title}>
-        <a className="Writing-line--title" href={link}>
+        <a
+          className="Writing-line--title"
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {title}
+
+          <p className="Writing-line--publish">
+            {published_by}
+            <br></br>
+            {published_on}
+          </p>
         </a>
-        <p className="Writing-line--publish">
-          {published_by}
-          <br></br>
-          {published_on}
-        </p>
       </div>
     );
   };
