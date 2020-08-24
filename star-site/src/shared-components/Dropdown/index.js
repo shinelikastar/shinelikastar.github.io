@@ -49,8 +49,9 @@ class Dropdown extends React.Component {
           className="Dropdown-point-icon"
           whileHover={{ y: 5 }}
           whileTap={{ scale: 0.8 }}
+          style={{ cursor: "pointer" }}
         >
-          {defaultActive ? "" : active ? "👆" : "👇"}
+          {active ? "👆" : "👇"}
         </motion.span>
       </div>
     );

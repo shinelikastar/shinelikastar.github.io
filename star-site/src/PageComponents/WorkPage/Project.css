@@ -71,6 +71,10 @@
   margin: 15px 0 10px;
 }
 
+.Language-list--right {
+  justify-content: flex-end;
+}
+
 .Language-list-elem {
   margin: 3px 10px 3px 0;
   font-family: var(--font-robot);

@@ -96,9 +96,13 @@ class Project extends React.Component {
     );
   };
 
-  renderLanguages = (languages) => {
+  renderLanguages = (languages, index) => {
+    const className = classNames("Language-list", {
+      "Language-list--left": isEven(index),
+      "Language-list--right": !isEven(index),
+    });
     return (
-      <ul className="Language-list" data-aos="fade-right" data-aos-delay="150">
+      <ul className={className} data-aos="fade-right" data-aos-delay="150">
         {languages.map((elem) => {
           return (
             <li className="Language-list-elem" key={elem}>
@@ -131,7 +135,7 @@ class Project extends React.Component {
       <div className={boardClass} data-aos="fade-up" data-aos-delay="200">
         <p className={headerClass}>{title}</p>
         <p className={textClass}>{description}</p>
-        {this.renderLanguages(languages)}
+        {this.renderLanguages(languages, index)}
         {this.renderLinks(links)}
       </div>
     );
