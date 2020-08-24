@@ -21,6 +21,11 @@ body {
   overflow-x: hidden;
 }
 
+p,
+span {
+  cursor: default;
+}
+
 a {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -35,7 +40,6 @@ a {
   display: inline-block;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
-  text-decoration: none;
   box-shadow: inset 0 -2px 0 var(--color-dark-blue);
 }
 

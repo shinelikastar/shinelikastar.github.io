@@ -32,20 +32,27 @@ class Experience extends React.Component {
 
   renderPlace = (place) => {
     const {
-      location,
+      location: { value, ref },
       role,
       time_period: { start, end },
     } = place;
 
     return (
-      <div className="Place" key={location}>
+      <div className="Place" key={value}>
         <div className="Place-location">
           <h4>
-            <span className="Place-role">{role} </span>
+            <span className="Place-role">{role}</span>
             <span className="Place-location-text">
               {" "}
-              {" @"}
-              {location}
+              <a
+                className="Place-location-link"
+                href={ref}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" @"}
+                {value}
+              </a>
             </span>
           </h4>
         </div>

@@ -1,7 +1,10 @@
 export default {
   current: [
     {
-      location: "Brown University",
+      location: {
+        value: "Brown University",
+        ref: "https://www.brown.edu/",
+      },
       role: "Rising senior",
 
       time_period: {
@@ -10,7 +13,10 @@ export default {
       },
     },
     {
-      location: "Computer Systems",
+      location: {
+        value: "Computer Systems",
+        ref: "http://cs.brown.edu/courses/cs033/index.html",
+      },
       role: "Head teaching assistant",
 
       time_period: {
@@ -18,7 +24,10 @@ export default {
       },
     },
     {
-      location: "Visual Computing Lab",
+      location: {
+        value: "Visual Computing Lab",
+        ref: "https://visual.cs.brown.edu/",
+      },
       role: "Researcher",
 
       time_period: {
@@ -28,7 +37,10 @@ export default {
   ],
   past: [
     {
-      location: "Stripe",
+      location: {
+        value: "Stripe",
+        ref: "https://stripe.com/",
+      },
       role: "Full-stack engineering intern",
 
       time_period: {
@@ -37,7 +49,10 @@ export default {
       },
     },
     {
-      location: "Computer Systems Fundamentals (cs131)",
+      location: {
+        value: "Computer Systems Fundamentals (cs131)",
+        ref: "http://cs.brown.edu/courses/csci1310/2020/",
+      },
       role: "Teaching assistant",
 
       time_period: {
@@ -46,7 +61,10 @@ export default {
       },
     },
     {
-      location: "Crowds + Machines Laboratory",
+      location: {
+        value: "Crowds + Machines Laboratory",
+        ref: "",
+      },
       role: "Researcher",
 
       time_period: {
@@ -55,7 +73,10 @@ export default {
       },
     },
     {
-      location: "Data Structures & Algos TA (cs18)",
+      location: {
+        value: "Data Structures & Algos TA (cs18)",
+        ref: "https://cs.brown.edu/courses/csci0180/home.html",
+      },
       role: "Teaching assistant",
 
       time_period: {
@@ -64,7 +85,10 @@ export default {
       },
     },
     {
-      location: "Functional Programming TA (cs17)",
+      location: {
+        value: "Functional Programming TA (cs17)",
+        ref: "http://cs.brown.edu/courses/cs017/",
+      },
       role: "Teaching assistant",
 
       time_period: {
@@ -73,7 +97,10 @@ export default {
       },
     },
     {
-      location: "UChicago",
+      location: {
+        value: "UChicago",
+        ref: "http://facweb.cs.depaul.edu/research/vc/medix/2018/index.htm",
+      },
       role: "National Science Foundation research recipient",
 
       time_period: {
@@ -84,7 +111,10 @@ export default {
   ],
   future: [
     {
-      location: "new grad!",
+      location: {
+        value: "new grad!",
+        ref: "https://www.linkedin.com/in/star-su-992866170/",
+      },
       role: "Seeking SWE opportunities",
 
       time_period: {
