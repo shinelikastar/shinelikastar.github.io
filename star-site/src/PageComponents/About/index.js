@@ -47,10 +47,10 @@ class About extends React.Component {
           figure skating, and{" "}
           <Link
             link="https://airtable.com/shrqtsEcKMYjEjXaO"
-            value="reading anything I come across"
+            value="reading"
             className="Link-highlight"
-          />
-          .<br></br>
+          />{" "}
+          anything I come across.<br></br>
           <br></br>
           Thanks for stopping by!
         </p>
