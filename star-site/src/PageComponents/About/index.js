@@ -9,7 +9,11 @@ const summary = "design notes";
 const content = (
   <p>
     If you found any amount of delight in the drawings, these were done by my{" "}
-    <a href="https://floriatsui.github.io/" target="_blank">
+    <a
+      href="https://floriatsui.github.io/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       talented sister Floria
     </a>
     .<br></br>

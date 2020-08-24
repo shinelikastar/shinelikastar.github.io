@@ -7,9 +7,11 @@ function Footer() {
     return (
       <a
         href="https://github.com/shinelikastar/shinelikastar.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
         className="Footer-credit"
       >
-        Designed & Built by Star Su{" "}
+        Designed {"&"} Built by Star Su{" "}
         <span role="img" aria-label="star">
           💫
         </span>

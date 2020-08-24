@@ -71,19 +71,24 @@ class Project extends React.Component {
         whileTap={{ scale: 0.8 }}
       >
         {github && (
-          <a href={github} target="_blank" className="Project-icon">
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="Project-icon"
+          >
             <FaGithub {...iconProps} />
           </a>
         )}
 
         {files && (
-          <a href={files} target="_blank">
+          <a href={files} target="_blank" rel="noopener noreferrer">
             <FaFolderOpen {...iconProps} />
           </a>
         )}
 
         {redirect && (
-          <a href={redirect} target="_blank">
+          <a href={redirect} target="_blank" rel="noopener noreferrer">
             <FiLink {...linkProps} />
           </a>
         )}

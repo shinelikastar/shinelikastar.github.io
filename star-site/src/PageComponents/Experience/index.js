@@ -90,7 +90,11 @@ class Experience extends React.Component {
     return (
       <ul className="Icon-container">
         <li>
-          <a href="https://github.com/shinelikastar" target="_blank">
+          <a
+            href="https://github.com/shinelikastar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub {...iconProps} />
           </a>
         </li>
@@ -98,12 +102,17 @@ class Experience extends React.Component {
           <a
             href="https://www.linkedin.com/in/star-su-992866170/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaLinkedin {...iconProps} />
           </a>
         </li>
         <li>
-          <a href="mailto:star_su@brown.edu" target="_blank">
+          <a
+            href="mailto:star_su@brown.edu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <MdEmail {...iconProps} />
           </a>
         </li>
