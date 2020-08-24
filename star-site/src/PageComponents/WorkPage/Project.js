@@ -71,19 +71,19 @@ class Project extends React.Component {
         whileTap={{ scale: 0.8 }}
       >
         {github && (
-          <a href={github} className="Project-icon">
+          <a href={github} target="_blank" className="Project-icon">
             <FaGithub {...iconProps} />
           </a>
         )}
 
         {files && (
-          <a href={files}>
+          <a href={files} target="_blank">
             <FaFolderOpen {...iconProps} />
           </a>
         )}
 
         {redirect && (
-          <a href={redirect}>
+          <a href={redirect} target="_blank">
             <FiLink {...linkProps} />
           </a>
         )}

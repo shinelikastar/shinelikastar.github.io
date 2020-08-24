@@ -53,7 +53,7 @@ function MainPage() {
       <TopButton />
       <Experience />
       <WorkPage />
-      <WritingPage />
+      {/* <WritingPage /> */}
       <About />
       <Footer />
     </>

@@ -10,7 +10,10 @@ const summary = "design notes";
 const content = (
   <p>
     If you found any amount of delight in the drawings, these were done by my{" "}
-    <a href="https://floriatsui.github.io/">talented sister Floria</a>.<br></br>
+    <a href="https://floriatsui.github.io/" target="_blank">
+      talented sister Floria
+    </a>
+    .<br></br>
     <br></br>
     The headers are set in Rowdies, the body in Jost. Built using React.
     <br></br>
