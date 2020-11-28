@@ -1,0 +1,18 @@
+:root {
+  --color-light-blue: rgb(16, 162, 245);
+  --color-dark-blue: #007bff;
+  --color-light-periwinkle: #88ace0;
+  --color-dark-periwinkle: rgb(168, 178, 209);
+
+  --font-header: "Rowdies", cursive;
+  --font-robot: Inconsolata, monospace;
+
+  --font-size-welcome: 25px;
+  --font-size-header: 27px;
+  --font-size-language-elem: 0.6rem;
+  --font-size-project-description: 13px;
+
+  --font-weight-language-elem: 600;
+
+  --project-box-shadow: 0 10px 25px 2px grey;
+}
