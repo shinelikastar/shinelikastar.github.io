@@ -1,0 +1,72 @@
+@import "../../shared-components/vars.css";
+
+.Welcome-section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Welcome-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.Girl-diva {
+  height: 600px;
+  margin-top: 50px;
+  width: auto;
+}
+
+.DisplayText {
+  font-size: var(--font-size-welcome);
+  font-family: var(--font-header);
+}
+
+.Welcome-text-container {
+  margin-left: 25px;
+  width: 360px;
+  min-width: 400px;
+  pointer-events: none;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .Welcome-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px 30px 0 0;
+  }
+
+  .Girl-diva {
+    height: 500px;
+    width: auto;
+    margin: 30px 0 0 30px;
+  }
+
+  .Welcome-text-container {
+    margin-left: 40px;
+    width: 300px;
+    min-width: 300px;
+    letter-spacing: 1.25px;
+  }
+
+  .DisplayText,
+  .Welcome-subtext,
+  .Girl-diva {
+    margin-top: 30px;
+  }
+
+  .Welcome-subtext {
+    font-size: 14px;
+  }
+}
