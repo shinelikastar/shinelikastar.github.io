@@ -1,30 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.d09d3734.chunk.css",
-    "main.js": "/static/js/main.c732a1fb.chunk.js",
-    "main.js.map": "/static/js/main.c732a1fb.chunk.js.map",
+    "main.css": "/static/css/main.0534848b.chunk.css",
+    "main.js": "/static/js/main.31f2c406.chunk.js",
+    "main.js.map": "/static/js/main.31f2c406.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.da063aa9.js",
     "runtime-main.js.map": "/static/js/runtime-main.da063aa9.js.map",
-    "static/js/2.582f7157.chunk.js": "/static/js/2.582f7157.chunk.js",
-    "static/js/2.582f7157.chunk.js.map": "/static/js/2.582f7157.chunk.js.map",
+    "static/js/2.c5c8f934.chunk.js": "/static/js/2.c5c8f934.chunk.js",
+    "static/js/2.c5c8f934.chunk.js.map": "/static/js/2.c5c8f934.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.32fe686412c2fbbdf8496e854b2e3bdf.js": "/precache-manifest.32fe686412c2fbbdf8496e854b2e3bdf.js",
+    "precache-manifest.1dc250068cd2a19a85f7752207e768eb.js": "/precache-manifest.1dc250068cd2a19a85f7752207e768eb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d09d3734.chunk.css.map": "/static/css/main.d09d3734.chunk.css.map",
-    "static/js/2.582f7157.chunk.js.LICENSE.txt": "/static/js/2.582f7157.chunk.js.LICENSE.txt",
-    "static/media/address_autocomplete.gif": "/static/media/address_autocomplete.efb768cd.gif",
+    "static/css/main.0534848b.chunk.css.map": "/static/css/main.0534848b.chunk.css.map",
+    "static/js/2.c5c8f934.chunk.js.LICENSE.txt": "/static/js/2.c5c8f934.chunk.js.LICENSE.txt",
     "static/media/diva.png": "/static/media/diva.2a009e4a.png",
     "static/media/dozing.png": "/static/media/dozing.54f74e8c.png",
-    "static/media/eggs_static.png": "/static/media/eggs_static.ca5d308d.png",
-    "static/media/pointing-up.png": "/static/media/pointing-up.951c1d7f.png",
-    "static/media/raisin_bread_static.png": "/static/media/raisin_bread_static.7feb7caa.png",
-    "static/media/ray_static.png": "/static/media/ray_static.afcdcce3.png",
-    "static/media/weenix.gif": "/static/media/weenix.ffc80066.gif"
+    "static/media/pointing-up.png": "/static/media/pointing-up.951c1d7f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.da063aa9.js",
-    "static/js/2.582f7157.chunk.js",
-    "static/css/main.d09d3734.chunk.css",
-    "static/js/main.c732a1fb.chunk.js"
+    "static/js/2.c5c8f934.chunk.js",
+    "static/css/main.0534848b.chunk.css",
+    "static/js/main.31f2c406.chunk.js"
   ]
 }
