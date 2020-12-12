@@ -1,9 +1,32 @@
 export default [
   {
+    title: "Secret Skin",
+    publish: {
+      published_by: "Waxwing",
+      published_on: "forthcoming 2021",
+    },
+    forthcoming: {
+      forthcoming_link: "http://waxwingmag.org/index.php#top",
+    },
+  },
+  {
+    title: "Bone Ache",
+    publish: {
+      published_by: "SmokeLong Quarterly Review",
+      published_on: "forthcoming 2021",
+    },
+    forthcoming: {
+      forthcoming_link: "http://www.smokelong.com/",
+    },
+  },
+  {
     title: "Butterflies and Moths",
     publish: {
       published_by: "Star 82 Review",
-      published_on: "forthcoming",
+      published_on: "forthcoming 2021",
+    },
+    forthcoming: {
+      forthcoming_link: "http://www.star82review.com/",
     },
   },
   {
@@ -32,7 +55,7 @@ export default [
       "https://issuu.com/cocoa-dragon/docs/star_layout_centered_f72daf76663398",
   },
   {
-    title: "WARMING COOLING NEUTRAL",
+    title: "Warming Cooling Neutral",
     publish: {
       published_by: "The College Hill Independent",
       published_on: "2019",
@@ -66,7 +89,7 @@ export default [
   {
     title: "Meatball",
     publish: {
-      published_by: "The College Hill Independent",
+      published_by: "VISIONS Magazine",
       published_on: "2018",
     },
     link: "https://issuu.com/visions.brown/docs/final_visions_fall18",

@@ -29,20 +29,43 @@ class WritingPage extends React.Component {
     }
   };
 
+  renderPublisher = (forthcoming, published_by) => {
+    if (forthcoming) {
+      const { forthcoming_link } = forthcoming;
+      return (
+        <span className="Writing-line--published_by">
+          -
+          <a
+            className="Writing-line--published_by Link-highlight"
+            href={forthcoming_link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {published_by},
+          </a>
+        </span>
+      );
+    } else {
+      return (
+        <span className="Writing-line--published_by">- {published_by},</span>
+      );
+    }
+  };
+
   renderLine = (line) => {
     const {
       title,
       publish: { published_by, published_on },
       link,
+      forthcoming,
     } = line;
 
     return (
       <div className="Writing-line" key={title}>
         <p>
           {this.renderTitle(title, link)}
-          <span className="Writing-line--publish">
-            {published_by}, {published_on}
-          </span>
+          {this.renderPublisher(forthcoming, published_by)}
+          <span className="Writing-line--published_on">{published_on}</span>
         </p>
       </div>
     );

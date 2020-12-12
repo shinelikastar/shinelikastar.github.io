@@ -5,7 +5,7 @@ export default {
         value: "Brown University",
         ref: "https://www.brown.edu/",
       },
-      role: "Rising senior",
+      role: "Senior",
 
       time_period: {
         start: "Sep 2017",
@@ -14,13 +14,27 @@ export default {
     },
     {
       location: {
+        value: "Operating Systems",
+        ref: "https://cs.brown.edu/courses/cs167/index.html",
+      },
+      role: "Teaching assistant",
+
+      time_period: {
+        start: "Mar 2020",
+      },
+    },
+  ],
+  past: [
+    {
+      location: {
         value: "Computer Systems",
-        ref: "http://cs.brown.edu/courses/cs033/index.html",
+        ref: "https://brown-cs0330.github.io/website/index.html",
       },
       role: "Head teaching assistant",
 
       time_period: {
         start: "Mar 2020",
+        end: "Dec 2020",
       },
     },
     {
@@ -32,10 +46,9 @@ export default {
 
       time_period: {
         start: "Jan 2020",
+        end: "May 2020",
       },
     },
-  ],
-  past: [
     {
       location: {
         value: "Stripe",

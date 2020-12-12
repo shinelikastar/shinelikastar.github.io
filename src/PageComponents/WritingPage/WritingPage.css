@@ -1,3 +1,5 @@
+@import "../../shared-components/vars.css";
+
 .Writing-page-content {
   display: flex;
 }
@@ -10,6 +12,7 @@
 
 .Writing-line {
   padding: 13px;
+  font-size: 14px;
 }
 
 .Writing-line--title {
@@ -22,10 +25,13 @@
   padding-right: 50px;
 }
 
-.Writing-line--publish {
-  color: rgb(168, 178, 209);
-  margin: 0 5px;
-  font-style: italic;
+.Writing-line--published_by {
+  color: var(--color-dark-periwinkle);
+  margin: 0 2px;
+}
+
+.Writing-line--published_on {
+  color: var(--color-dark-periwinkle);
 }
 
 .Writing-page-container {

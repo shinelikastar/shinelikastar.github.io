@@ -4,7 +4,6 @@ import React from "react";
 import girl from "../../assets/diva.png";
 import "./MainPage.css";
 
-import WorkPage from "../WorkPage";
 import Footer from "./Footer";
 import Experience from "../Experience";
 import WritingPage from "../WritingPage";
@@ -52,7 +51,6 @@ function MainPage() {
       {renderWelcome()}
       <TopButton />
       <Experience />
-      {/* <WorkPage /> */}
       <WritingPage />
       <About />
       <Footer />
