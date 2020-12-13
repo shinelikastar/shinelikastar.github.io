@@ -5,7 +5,7 @@ export default {
         value: "Brown University",
         ref: "https://www.brown.edu/",
       },
-      role: "Senior",
+      role: "Rising senior",
 
       time_period: {
         start: "Sep 2017",
@@ -14,27 +14,13 @@ export default {
     },
     {
       location: {
-        value: "Operating Systems",
-        ref: "https://cs.brown.edu/courses/cs167/index.html",
-      },
-      role: "Teaching assistant",
-
-      time_period: {
-        start: "Mar 2020",
-      },
-    },
-  ],
-  past: [
-    {
-      location: {
         value: "Computer Systems",
-        ref: "https://brown-cs0330.github.io/website/index.html",
+        ref: "http://cs.brown.edu/courses/cs033/index.html",
       },
       role: "Head teaching assistant",
 
       time_period: {
         start: "Mar 2020",
-        end: "Dec 2020",
       },
     },
     {
@@ -46,9 +32,10 @@ export default {
 
       time_period: {
         start: "Jan 2020",
-        end: "May 2020",
       },
     },
+  ],
+  past: [
     {
       location: {
         value: "Stripe",
@@ -69,8 +56,8 @@ export default {
       role: "Teaching assistant",
 
       time_period: {
-        start: "Jan 2020",
-        end: "May 2020",
+        start: "May 2020",
+        end: "Jan 2020",
       },
     },
     {
@@ -87,26 +74,26 @@ export default {
     },
     {
       location: {
-        value: "Data Structures & Algos (cs18)",
+        value: "Data Structures & Algos TA (cs18)",
         ref: "https://cs.brown.edu/courses/csci0180/home.html",
       },
       role: "Teaching assistant",
 
       time_period: {
-        start: "Jan 2019",
-        end: "May 2019",
+        start: "May 2019",
+        end: "Jan 2019",
       },
     },
     {
       location: {
-        value: "Functional Programming (cs17)",
+        value: "Functional Programming TA (cs17)",
         ref: "http://cs.brown.edu/courses/cs017/",
       },
       role: "Teaching assistant",
 
       time_period: {
-        start: "Aug 2018",
-        end: "Dec 2018",
+        start: "Dec 2018",
+        end: "Aug 2018",
       },
     },
     {
@@ -125,13 +112,13 @@ export default {
   future: [
     {
       location: {
-        value: "Stripe",
-        ref: "https://stripe.com/",
+        value: "new grad!",
+        ref: "https://www.linkedin.com/in/star-su-992866170/",
       },
-      role: "Software Engineer",
+      role: "Seeking SWE opportunities",
 
       time_period: {
-        start: "August 2021",
+        start: "For 2021 roles",
       },
     },
   ],

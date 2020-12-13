@@ -8,28 +8,64 @@ class WritingPage extends React.Component {
     archive: config,
   };
 
-  renderLine = (line, index) => {
-    const {
-      title,
-      publish: { published_by, published_on },
-      link,
-    } = line;
-
-    return (
-      <div className={`line-${index}`} key={title}>
+  renderTitle = (title, link) => {
+    if (link) {
+      return (
         <a
           className="Writing-line--title Link-highlight"
           href={link}
           target="_blank"
           rel="noopener noreferrer"
         >
-          {title}
+          "{title}"
         </a>
+      );
+    } else {
+      return (
+        <span className="Writing-line--title forthcoming" href={link}>
+          "{title}"
+        </span>
+      );
+    }
+  };
 
-        <p className="Writing-line--publish">
-          {published_by}
-          <br></br>
-          {published_on}
+  renderPublisher = (forthcoming, published_by) => {
+    if (forthcoming) {
+      const { forthcoming_link } = forthcoming;
+      return (
+        <span className="Writing-line--published_by">
+          -
+          <a
+            className="Writing-line--forthcoming Link-highlight"
+            href={forthcoming_link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {published_by},
+          </a>
+        </span>
+      );
+    } else {
+      return (
+        <span className="Writing-line--published_by">- {published_by},</span>
+      );
+    }
+  };
+
+  renderLine = (line) => {
+    const {
+      title,
+      publish: { published_by, published_on },
+      link,
+      forthcoming,
+    } = line;
+
+    return (
+      <div className="Writing-line" key={title}>
+        <p>
+          {this.renderTitle(title, link)}
+          {this.renderPublisher(forthcoming, published_by)}
+          <span className="Writing-line--published_on">{published_on}</span>
         </p>
       </div>
     );
@@ -42,23 +78,14 @@ class WritingPage extends React.Component {
     });
   };
 
-  renderThoughts = () => {
-    return (
-      <div className="Writing-thought-container">
-        <p className="Writing-thought-header">Thoughts</p>
-        <p>A collection of my writing pieces that live on the interwebs.</p>
-      </div>
-    );
-  };
-
   render() {
-    const headerText = "some things i've written ✨";
+    const headerText = "selected publications ✨";
 
     return (
-      <div className="Writing-page-container">
+      <section className="Writing-page-container">
         <Header text={headerText} />
         <div className="Writing-archive">{this.renderArchive()}</div>
-      </div>
+      </section>
     );
   }
 }

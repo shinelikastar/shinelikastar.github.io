@@ -39,7 +39,7 @@ class Dropdown extends React.Component {
   };
 
   renderSummary() {
-    const { summary } = this.props;
+    const { defaultActive, summary } = this.props;
     const { active } = this.state;
 
     return (
