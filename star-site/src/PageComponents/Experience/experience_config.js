@@ -14,13 +14,24 @@ export default {
     },
     {
       location: {
+        value: "Split Lip Magazine",
+        ref: "https://splitlipthemag.com/",
+      },
+      role: "Flash reader",
+
+      time_period: {
+        start: "Feb 2021",
+      },
+    },
+    {
+      location: {
         value: "Operating Systems",
-        ref: "https://cs.brown.edu/courses/cs167/index.html",
+        ref: "https://brown-cs1690.github.io/brown-cs167-s21/#/",
       },
       role: "Teaching assistant",
 
       time_period: {
-        start: "Mar 2020",
+        start: "Jan 2021",
       },
     },
   ],

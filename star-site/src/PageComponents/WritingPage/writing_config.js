@@ -1,12 +1,78 @@
 export default [
   {
+    title: "Parable of the Fishbone",
+    publish: {
+      published_by: "trampset",
+    },
+    link: "https://trampset.org/parable-of-the-fishbone-640e5b1c1923",
+  },
+  {
+    title: "Properties of Light",
+    publish: {
+      published_by: "Baltimore Review",
+    },
+    link:
+      "https://baltimorereview.org/index.php/winter_2021/contributor/star-su",
+  },
+  {
     title: "Secret Skin",
     publish: {
       published_by: "Waxwing",
-      published_on: "forthcoming (Issue 23) February 2021",
+    },
+    link: "http://waxwingmag.org/items/issue23/42_Su-Secret-Skin.php",
+  },
+  {
+    title: "Freezing Point",
+    publish: {
+      published_by: "Citron Review",
+    },
+    link: "https://citronreview.com/2021/03/21/freezing-point/",
+  },
+  {
+    title: "Butterflies and Moths",
+    publish: {
+      published_by: "Star 82 Review",
+    },
+    link: "http://www.star82review.com/9.1/su-butterflies.html",
+  },
+  {
+    title: "Beauty & the Beast",
+    publish: {
+      published_by: "Wildness",
+      published_on: "forthcoming (Issue 26) May 2021",
     },
     forthcoming: {
-      forthcoming_link: "http://waxwingmag.org/index.php#top",
+      forthcoming_link: "https://readwildness.com/issues",
+    },
+  },
+  {
+    title: "Color Study",
+    publish: {
+      published_by: "Chestnut Review",
+      published_on: "forthcoming (Summer Issue)",
+    },
+    forthcoming: {
+      forthcoming_link: "https://chestnutreview.com/issues/",
+    },
+  },
+  {
+    title: "Fairest",
+    publish: {
+      published_by: "Lost Balloon",
+      published_on: "forthcoming",
+    },
+    forthcoming: {
+      forthcoming_link: "https://lost-balloon.com/",
+    },
+  },
+  {
+    title: "Original Taste / 原味",
+    publish: {
+      published_by: "Passages North",
+      published_on: "forthcoming (Issue 43) spring 2022",
+    },
+    forthcoming: {
+      forthcoming_link: "https://www.passagesnorth.com/",
     },
   },
   {
@@ -18,80 +84,5 @@ export default [
     forthcoming: {
       forthcoming_link: "http://www.smokelong.com/",
     },
-  },
-  {
-    title: "Butterflies and Moths",
-    publish: {
-      published_by: "Star 82 Review",
-      published_on: "forthcoming (Issue 9.1) March 2021",
-    },
-    forthcoming: {
-      forthcoming_link: "http://www.star82review.com/",
-    },
-  },
-  {
-    title: "The Making of a Ghost",
-    publish: {
-      published_by: "The College Hill Independent",
-      published_on: "2019",
-    },
-    link: "https://www.theindy.org/1864",
-  },
-  {
-    title: "When Nezha Fell From the Sky",
-    publish: {
-      published_by: "The College Hill Independent",
-      published_on: "2019",
-    },
-    link: "https://www.theindy.org/1816",
-  },
-  {
-    title: "Tart to Tart",
-    publish: {
-      published_by: "independent zine",
-      published_on: "2019",
-    },
-    link:
-      "https://issuu.com/cocoa-dragon/docs/star_layout_centered_f72daf76663398",
-  },
-  {
-    title: "Warming Cooling Neutral",
-    publish: {
-      published_by: "The College Hill Independent",
-      published_on: "2019",
-    },
-    link: "https://www.theindy.org/1721",
-  },
-  {
-    title: "Bean Soup",
-    publish: {
-      published_by: "The College Hill Independent",
-      published_on: "2019",
-    },
-    link: "https://www.theindy.org/1691",
-  },
-  {
-    title: "Cooling Off",
-    publish: {
-      published_by: "The College Hill Independent",
-      published_on: "2019",
-    },
-    link: "https://www.theindy.org/1594",
-  },
-  {
-    title: "Meatball",
-    publish: {
-      published_by: "VISIONS Magazine",
-      published_on: "2018",
-    },
-    link: "https://issuu.com/visions.brown/docs/final_visions_fall18",
-  },
-  {
-    title: "Ask for Something Sweet",
-    publish: {
-      published_by: "The College Hill Independent",
-      published_on: "2018",
-    },
-    link: "https://www.theindy.org/1572",
   },
 ];

@@ -34,7 +34,7 @@ class WritingPage extends React.Component {
       const { forthcoming_link } = forthcoming;
       return (
         <span className="Writing-line--published_by">
-          -
+          -{" "}
           <a
             className="Writing-line--forthcoming Link-highlight"
             href={forthcoming_link}
@@ -47,7 +47,7 @@ class WritingPage extends React.Component {
       );
     } else {
       return (
-        <span className="Writing-line--published_by">- {published_by},</span>
+        <span className="Writing-line--published_by">- {published_by}</span>
       );
     }
   };
