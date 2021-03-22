@@ -1,10 +1,20 @@
 export default [
   {
-    title: "Parable of the Fishbone",
+    title: "Bone Ache",
     publish: {
-      published_by: "trampset",
+      published_by: "SmokeLong Quarterly Review",
     },
-    link: "https://trampset.org/parable-of-the-fishbone-640e5b1c1923",
+    interview: {
+      interview_link: "http://www.smokelong.com/smoke-mirrors-with-star-su/",
+    },
+    link: "http://www.smokelong.com/bone-ache/",
+  },
+  {
+    title: "Secret Skin",
+    publish: {
+      published_by: "Waxwing",
+    },
+    link: "http://waxwingmag.org/items/issue23/42_Su-Secret-Skin.php",
   },
   {
     title: "Properties of Light",
@@ -15,11 +25,11 @@ export default [
       "https://baltimorereview.org/index.php/winter_2021/contributor/star-su",
   },
   {
-    title: "Secret Skin",
+    title: "Parable of the Fishbone",
     publish: {
-      published_by: "Waxwing",
+      published_by: "trampset",
     },
-    link: "http://waxwingmag.org/items/issue23/42_Su-Secret-Skin.php",
+    link: "https://trampset.org/parable-of-the-fishbone-640e5b1c1923",
   },
   {
     title: "Freezing Point",
@@ -73,16 +83,6 @@ export default [
     },
     forthcoming: {
       forthcoming_link: "https://www.passagesnorth.com/",
-    },
-  },
-  {
-    title: "Bone Ache",
-    publish: {
-      published_by: "SmokeLong Quarterly Review",
-      published_on: "forthcoming March 2021",
-    },
-    forthcoming: {
-      forthcoming_link: "http://www.smokelong.com/",
     },
   },
 ];

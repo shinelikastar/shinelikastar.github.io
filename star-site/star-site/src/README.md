@@ -14,6 +14,8 @@
 - [ ] Check console errors
 - [ ] **Somewhere to stash links**
 - [ ] Loading logo
+- [ ] Make new Link class
+  - [ ] Refactor and use it
 
 
 **Deploy commnad:** `sudo npm --prefix star-site/ run deploy`

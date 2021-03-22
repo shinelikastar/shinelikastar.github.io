@@ -8,17 +8,34 @@ class WritingPage extends React.Component {
     archive: config,
   };
 
-  renderTitle = (title, link) => {
+  renderTitle = (title, link, interview) => {
+    const className = "Writing-line--title Link-highlight";
+
     if (link) {
       return (
-        <a
-          className="Writing-line--title Link-highlight"
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          "{title}"
-        </a>
+        <span>
+          <a
+            className={className}
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            "{title}"
+          </a>
+          {interview &&
+          <span>
+              {" &  "}
+              <a 
+              className={className} 
+              href={interview.interview_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                author interview
+              </a>
+              </span>
+          }
+      </span>
       );
     } else {
       return (
@@ -55,6 +72,7 @@ class WritingPage extends React.Component {
   renderLine = (line) => {
     const {
       title,
+      interview,
       publish: { published_by, published_on },
       link,
       forthcoming,
@@ -63,7 +81,7 @@ class WritingPage extends React.Component {
     return (
       <div className="Writing-line" key={title}>
         <p>
-          {this.renderTitle(title, link)}
+          {this.renderTitle(title, link, interview)}
           {this.renderPublisher(forthcoming, published_by)}
           <span className="Writing-line--published_on">{published_on}</span>
         </p>
