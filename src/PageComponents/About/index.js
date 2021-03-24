@@ -61,7 +61,7 @@ class About extends React.Component {
   render() {
     return (
       <section className="DesignNotes-section">
-        <Header text="about 🌿" />
+        <Header text="about 🌱" />
 
         <div className="About-container">
           <div

@@ -46,6 +46,16 @@ export default [
     link: "http://www.star82review.com/9.1/su-butterflies.html",
   },
   {
+    title: "Excerpt from the History of Clocks",
+    publish: {
+      published_by: "Jellyfish Review",
+      published_on: "forthcoming April/May 2021",
+    },
+    forthcoming: {
+      forthcoming_link: "https://jellyfishreview.wordpress.com/",
+    },
+  },
+  {
     title: "Beauty & the Beast",
     publish: {
       published_by: "Wildness",

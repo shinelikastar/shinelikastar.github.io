@@ -46,7 +46,7 @@ class About extends React.Component {
           crossword puzzles, fussy ways of making coffee, learning and teaching,
           figure skating, and{" "}
           <Link
-            link="https://airtable.com/shrqtsEcKMYjEjXaO"
+            link="https://www.goodreads.com/user/show/51203370-star-su"
             value="reading"
             className="Link-highlight"
           />{" "}

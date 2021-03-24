@@ -11,6 +11,7 @@
   height: auto;
   min-height: 70px;
   padding: 15px;
+  color: var(--color-light-periwinkle);
 }
 
 .Footer-credit {
