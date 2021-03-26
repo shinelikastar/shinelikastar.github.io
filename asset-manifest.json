@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.53f4d822.chunk.css",
-    "main.js": "/static/js/main.cb2d4cfc.chunk.js",
-    "main.js.map": "/static/js/main.cb2d4cfc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.da063aa9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.da063aa9.js.map",
-    "static/js/2.c5c8f934.chunk.js": "/static/js/2.c5c8f934.chunk.js",
-    "static/js/2.c5c8f934.chunk.js.map": "/static/js/2.c5c8f934.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6bca59808fbb2fd1b5e617fab347d2a8.js": "/precache-manifest.6bca59808fbb2fd1b5e617fab347d2a8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.53f4d822.chunk.css.map": "/static/css/main.53f4d822.chunk.css.map",
-    "static/js/2.c5c8f934.chunk.js.LICENSE.txt": "/static/js/2.c5c8f934.chunk.js.LICENSE.txt",
-    "static/media/diva.png": "/static/media/diva.2a009e4a.png",
-    "static/media/dozing.png": "/static/media/dozing.54f74e8c.png",
-    "static/media/pointing-up.png": "/static/media/pointing-up.951c1d7f.png"
+    "main.css": "/starcsu.com/static/css/main.53f4d822.chunk.css",
+    "main.js": "/starcsu.com/static/js/main.6ce16d8a.chunk.js",
+    "main.js.map": "/starcsu.com/static/js/main.6ce16d8a.chunk.js.map",
+    "runtime-main.js": "/starcsu.com/static/js/runtime-main.9a778d07.js",
+    "runtime-main.js.map": "/starcsu.com/static/js/runtime-main.9a778d07.js.map",
+    "static/js/2.c5c8f934.chunk.js": "/starcsu.com/static/js/2.c5c8f934.chunk.js",
+    "static/js/2.c5c8f934.chunk.js.map": "/starcsu.com/static/js/2.c5c8f934.chunk.js.map",
+    "index.html": "/starcsu.com/index.html",
+    "precache-manifest.711fb90ce6a1517033c4f1398843439c.js": "/starcsu.com/precache-manifest.711fb90ce6a1517033c4f1398843439c.js",
+    "service-worker.js": "/starcsu.com/service-worker.js",
+    "static/css/main.53f4d822.chunk.css.map": "/starcsu.com/static/css/main.53f4d822.chunk.css.map",
+    "static/js/2.c5c8f934.chunk.js.LICENSE.txt": "/starcsu.com/static/js/2.c5c8f934.chunk.js.LICENSE.txt",
+    "static/media/diva.png": "/starcsu.com/static/media/diva.2a009e4a.png",
+    "static/media/dozing.png": "/starcsu.com/static/media/dozing.54f74e8c.png",
+    "static/media/pointing-up.png": "/starcsu.com/static/media/pointing-up.951c1d7f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.da063aa9.js",
+    "static/js/runtime-main.9a778d07.js",
     "static/js/2.c5c8f934.chunk.js",
     "static/css/main.53f4d822.chunk.css",
-    "static/js/main.cb2d4cfc.chunk.js"
+    "static/js/main.6ce16d8a.chunk.js"
   ]
 }
