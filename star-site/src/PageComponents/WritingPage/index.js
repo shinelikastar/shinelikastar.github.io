@@ -97,7 +97,7 @@ class WritingPage extends React.Component {
   };
 
   render() {
-    const headerText = "selected publications ✨";
+    const headerText = "publications";
 
     return (
       <section className="Writing-page-container">
