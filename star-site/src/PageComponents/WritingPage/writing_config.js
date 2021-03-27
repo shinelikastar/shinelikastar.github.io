@@ -46,10 +46,30 @@ export default [
     link: "http://www.star82review.com/9.1/su-butterflies.html",
   },
   {
+    title: "Twin Bowls",
+    publish: {
+      published_by: "Pithead Chapel",
+      published_on: "forthcoming July 2021",
+    },
+    forthcoming: {
+      forthcoming_link: "https://pitheadchapel.com/",
+    },
+  },
+  {
+    title: "Sweet Teeth",
+    publish: {
+      published_by: "The Offing",
+      published_on: "forthcoming April/May",
+    },
+    forthcoming: {
+      forthcoming_link: "https://jellyfishreview.wordpress.com/",
+    },
+  },
+  {
     title: "Excerpt from the History of Clocks",
     publish: {
       published_by: "Jellyfish Review",
-      published_on: "forthcoming April/May 2021",
+      published_on: "forthcoming April/May",
     },
     forthcoming: {
       forthcoming_link: "https://jellyfishreview.wordpress.com/",
@@ -59,7 +79,7 @@ export default [
     title: "Beauty & the Beast",
     publish: {
       published_by: "Wildness",
-      published_on: "forthcoming (Issue 26) May 2021",
+      published_on: "forthcoming (Issue 26) May",
     },
     forthcoming: {
       forthcoming_link: "https://readwildness.com/issues",
@@ -79,7 +99,7 @@ export default [
     title: "Fairest",
     publish: {
       published_by: "Lost Balloon",
-      published_on: "forthcoming",
+      published_on: "forthcoming May",
     },
     forthcoming: {
       forthcoming_link: "https://lost-balloon.com/",
