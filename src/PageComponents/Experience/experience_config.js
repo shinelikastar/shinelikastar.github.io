@@ -134,5 +134,17 @@ export default {
         start: "August 2021",
       },
     },
+    {
+      location: {
+        value: "SmokeLong Quarterly",
+        ref: "http://www.smokelong.com",
+      },
+      role: "Reader-in-Residence",
+
+      time_period: {
+        start: "Jun 2021",
+        end: "Sep 2021",
+      },
+    },
   ],
 };

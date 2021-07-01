@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "../../shared-components/Header";
 import config from "./writing_config";
+import Link from "../../shared-components/Link";
 import "./WritingPage.css";
 
 class WritingPage extends React.Component {
   static defaultProps = {
-    archive: config,
+    config: config,
   };
 
   renderTitle = (title, link, interview) => {
@@ -14,25 +15,19 @@ class WritingPage extends React.Component {
     if (link) {
       return (
         <span>
-          <a
+          <Link
             className={className}
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            "{title}"
-          </a>
+            link={link}
+            value={title}
+          />
           {interview &&
           <span>
               {" &  "}
-              <a 
+              <Link
               className={className} 
-              href={interview.interview_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                author interview
-              </a>
+              link={interview.interview_link}
+              value="author interview"
+              />
               </span>
           }
       </span>
@@ -52,14 +47,12 @@ class WritingPage extends React.Component {
       return (
         <span className="Writing-line--published_by">
           -{" "}
-          <a
+          <Link
             className="Writing-line--forthcoming Link-highlight"
-            href={forthcoming_link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {published_by},
-          </a>
+            link={forthcoming_link}
+            value={published_by}
+          />
+          ,
         </span>
       );
     } else {
@@ -86,23 +79,46 @@ class WritingPage extends React.Component {
           <span className="Writing-line--published_on">{published_on}</span>
         </p>
       </div>
-    );
+  );
   };
 
-  renderArchive = () => {
-    const { archive } = this.props;
-    return archive.map((elem, index) => {
-      return this.renderLine(elem, index);
+  renderStoryList = (story_list, isFlash) => {
+    const subHeader = "column Writing-sub-header";
+    const storyCol = "column Writing-story-col";
+
+    return story_list.map((elem, index) => {
+      var firstRow = (<div className={subHeader}></div>);
+      if (index === 0) {
+        firstRow = (
+            <div className={subHeader}>
+              {isFlash ? "Flash fiction" : "Short stories"}
+            </div>
+        )
+      }
+
+      return (
+          <div className="row">
+            {firstRow}
+            <div className={storyCol}>
+              {this.renderLine(elem, index)}
+            </div>
+          </div>
+      )
     });
   };
 
   render() {
-    const headerText = "publications";
+    const {config} = this.props;
+    const {short_stories} = config[0];
+    const {flash} = config[1];
 
     return (
       <section className="Writing-page-container">
-        <Header text={headerText} />
-        <div className="Writing-archive">{this.renderArchive()}</div>
+        <Header text="publications" />
+        <div className="Writing-archive">
+          {this.renderStoryList(short_stories, false)}
+          {this.renderStoryList(flash, true)}
+        </div>
       </section>
     );
   }

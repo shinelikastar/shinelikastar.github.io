@@ -14,6 +14,10 @@
   color: var(--color-light-periwinkle);
 }
 
+a.Footer-credit:hover {
+  color: var(--color-dark-blue);
+}
+
 .Footer-credit {
   font-weight: 600;
   letter-spacing: 0.025em;
@@ -21,6 +25,7 @@
   padding: 10px;
   text-decoration: none;
 }
+
 .Footer-credit:visited {
   color: rgb(168, 178, 209);
 }
