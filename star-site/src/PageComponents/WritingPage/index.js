@@ -79,9 +79,10 @@ class WritingPage extends React.Component {
       return (
         <div>
           <p className={className}>
-            <span className="Writing-line--award-icon">
-             🏅 {award_result} for {award_name} 
+            <span className="Writing-line--award-icon" role="img">
+             🏅  
             </span>
+            {award_result} for {award_name}
           </p>
         </div>
       )

@@ -43,6 +43,11 @@
   color: var(--color-dark-periwinkle);
 }
 
+.Writing-line--award {
+  color: var(--color-dark-periwinkle);
+  padding-top: 10px;
+}
+
 .Writing-page-container {
   height: 100%;
   width: 100%;
