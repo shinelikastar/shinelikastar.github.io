@@ -62,6 +62,32 @@ class WritingPage extends React.Component {
     }
   };
 
+  renderPubDate = (published_on) => {
+    const className = "Writing-line--published_on" 
+    return (
+        <span className={className}>{published_on}</span>
+    )
+  }
+
+  renderAward = (award) => {
+
+    if (award) {
+      const {award_result, award_name} = award
+
+      const className = "Writing-line--award"
+
+      return (
+        <div>
+          <p className={className}>
+            <span className="Writing-line--award-icon">
+             🏅 {award_result} for {award_name} 
+            </span>
+          </p>
+        </div>
+      )
+    }
+  }
+
   renderLine = (line) => {
     const {
       title,
@@ -69,6 +95,7 @@ class WritingPage extends React.Component {
       publish: { published_by, published_on },
       link,
       forthcoming,
+      award,
     } = line;
 
     return (
@@ -76,7 +103,8 @@ class WritingPage extends React.Component {
         <p>
           {this.renderTitle(title, link, interview)}
           {this.renderPublisher(forthcoming, published_by)}
-          <span className="Writing-line--published_on">{published_on}</span>
+          {this.renderPubDate(published_on)}
+          {this.renderAward(award)}
         </p>
       </div>
   );

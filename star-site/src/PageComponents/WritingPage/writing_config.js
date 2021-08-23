@@ -26,6 +26,20 @@ export default [
           forthcoming_link: "https://chestnutreview.com/issues/",
         },
       },
+      {
+        title: "Kun",
+        publish: {
+          published_by: "Porter House Review",
+          published_on: "forthcoming",
+        },
+        forthcoming: {
+          forthcoming_link: "https://porterhousereview.org/",
+        },
+        award: {
+          award_result: "Finalist",
+          award_name: "Editor's Prize as judged by Yiyun Li"
+        }
+      },
     ],
   },
   
