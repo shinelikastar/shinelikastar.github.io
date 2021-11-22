@@ -20,24 +20,22 @@ export default [
         title: "Color Study",
         publish: {
           published_by: "Chestnut Review",
-          published_on: "forthcoming (Summer Issue)",
         },
-        forthcoming: {
-          forthcoming_link: "https://chestnutreview.com/issues/",
+        award: {
+          award_result: "Nominated",
+          award_name: "2021 Pushcart Prize"
         },
+        link: "https://chestnutreview.com/color-study/",
       },
       {
         title: "Kun",
         publish: {
           published_by: "Porter House Review",
-          published_on: "forthcoming",
         },
-        forthcoming: {
-          forthcoming_link: "https://porterhousereview.org/",
-        },
+        link: "https://porterhousereview.org/articles/kun/",
         award: {
           award_result: "Finalist",
-          award_name: "Editor's Prize as judged by Yiyun Li"
+          award_name: "Editor's Prize, judged by Yiyun Li"
         }
       },
     ],
@@ -51,14 +49,36 @@ export default [
           published_by: "Tiny Molecules",
         },
         link: "https://www.tinymolecules.com/issues/nine#star-su",
+        award: {
+          award_result: "Longlist",
+          award_name: "The Master's Review Flash Fiction Contest, judged by Stuart Dybek"
+        }
+      },
+      {
+        title: "Let Me Unwrap This For You",
+        publish: {
+          published_by: "Invisible City Lit",
+        },
+        award: {
+          award_result: "Nominated",
+          award_name: "Best Microfiction 2022"
+        },
+        award_2: {
+          award_result: "Nominated",
+          award_name: "Best Small Fictions 2022"
+        },
+        link: "https://www.invisiblecitylit.com/fiction/let-me-unwrap-this-for-you/",
       },
       {
         title: "Twin Bowls",
         publish: {
           published_by: "Pithead Chapel",
-          published_on: "forthcoming July 2021",
         },
         link: "https://pitheadchapel.com/twin-bowls/",
+        award: {
+          award_result: "Nominated",
+          award_name: "Best Microfiction 2022"
+        }
       },
       {
         title: "Excerpt from the History of Clocks",
@@ -97,6 +117,10 @@ export default [
           published_by: "trampset",
         },
         link: "https://trampset.org/parable-of-the-fishbone-640e5b1c1923",
+        award: {
+          award_result: "Nominated",
+          award_name: "2021 Pushcart Prize"
+        }
       },
       {
         title: "Fairest",
@@ -106,6 +130,13 @@ export default [
         link: "https://lost-balloon.com/2021/05/12/fairest-star-su/",
       },
       {
+        title: "Calculus of Devotion",
+        publish: {
+          published_by: "Fractured Lit",
+        },
+        link: "https://fracturedlit.com/calculus-of-devotion/",
+      },
+      {
         title: "Freezing Point",
         publish: {
           published_by: "Citron Review",
@@ -113,37 +144,10 @@ export default [
         link: "https://citronreview.com/2021/03/21/freezing-point/",
       },
       {
-        title: "Butterflies and Moths",
-        publish: {
-          published_by: "Star 82 Review",
-        },
-        link: "http://www.star82review.com/9.1/su-butterflies.html",
-      },
-      {
-        title: "Let Me Unwrap This For You",
-        publish: {
-          published_by: "Invisible City Lit",
-          published_on: "forthcoming",
-        },
-        forthcoming: {
-          forthcoming_link: "https://www.invisiblecitylit.com/",
-        },
-      },
-      {
-        title: "Calculus of Devotion",
-        publish: {
-          published_by: "Fractured Lit",
-          published_on: "forthcoming",
-        },
-        forthcoming: {
-          forthcoming_link: "https://fracturedlit.com/",
-        },
-      },
-      {
         title: "Original Taste / 原味",
         publish: {
           published_by: "Passages North",
-          published_on: "forthcoming (Issue 43) spring 2022",
+          published_on: "forthcoming",
         },
         forthcoming: {
           forthcoming_link: "https://www.passagesnorth.com/",

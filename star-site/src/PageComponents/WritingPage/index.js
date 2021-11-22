@@ -79,7 +79,9 @@ class WritingPage extends React.Component {
       return (
         <div>
           <p className={className}>
-            <span className="Writing-line--award-icon" role="img">
+            <span className="Writing-line--award-icon" 
+            role="img"
+            aria-label="medallion">
              🏅  
             </span>
             {award_result} for {award_name}
@@ -97,6 +99,7 @@ class WritingPage extends React.Component {
       link,
       forthcoming,
       award,
+      award_2,
     } = line;
 
     return (
@@ -106,6 +109,7 @@ class WritingPage extends React.Component {
           {this.renderPublisher(forthcoming, published_by)}
           {this.renderPubDate(published_on)}
           {this.renderAward(award)}
+          {this.renderAward(award_2)}
         </p>
       </div>
   );

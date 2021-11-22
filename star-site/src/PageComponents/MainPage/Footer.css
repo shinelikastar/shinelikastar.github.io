@@ -17,6 +17,10 @@ a.Footer-credit:hover {
   color: var(--color-dark-blue);
 }
 
+a.Footer-credit {
+  color: var(--color-dark-blue);
+}
+
 .Footer-credit {
   font-weight: 600;
   letter-spacing: 0.025em;
