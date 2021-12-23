@@ -13,18 +13,6 @@ export default {
     },
     {
       location: {
-        value: "SmokeLong Quarterly",
-        ref: "http://www.smokelong.com",
-      },
-      role: "Reader in Residence",
-
-      time_period: {
-        start: "Jun 2021",
-        end: "Sep 2021",
-      },
-    },
-    {
-      location: {
         value: "Split Lip Magazine",
         ref: "https://splitlipthemag.com/",
       },
@@ -46,6 +34,18 @@ export default {
       time_period: {
         start: "Sep 2017",
         end: "May 2021",
+      },
+    },
+    {
+      location: {
+        value: "SmokeLong Quarterly",
+        ref: "http://www.smokelong.com",
+      },
+      role: "Reader in Residence",
+
+      time_period: {
+        start: "Jun 2021",
+        end: "Sep 2021",
       },
     },
   ],

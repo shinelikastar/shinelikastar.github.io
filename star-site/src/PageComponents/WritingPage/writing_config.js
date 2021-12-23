@@ -44,6 +44,17 @@ export default [
   {
     "flash": [
       {
+        title: "Origin Story",
+        publish: {
+          published_by: "Salt Hill Journal",
+        },
+        link: "https://salthilljournal.net/arthur-flowers-ff-prize-2021-winners",
+        award: {
+          award_result: "Runner-up",
+          award_name: "Arthur Flowers Flash Fiction Contest"
+        }
+      },
+      {
         title: "Little Heart",
         publish: {
           published_by: "Tiny Molecules",
@@ -142,6 +153,25 @@ export default [
           published_by: "Citron Review",
         },
         link: "https://citronreview.com/2021/03/21/freezing-point/",
+        award: {
+          award_result: "Nominated",
+          award_name: "Best Microfiction 2022"
+        },
+      },
+      {
+        title: "Butterflies and Moths",
+        publish: {
+          published_by: "Star 82 Review",
+        },
+        link: "http://www.star82review.com/9.1/su-butterflies.html",
+        award: {
+          award_result: "Nominated",
+          award_name: "Best Microfiction 2022"
+        },
+        award_2: {
+          award_result: "Nominated",
+          award_name: "Best Small Fictions 2022"
+        },
       },
       {
         title: "Original Taste / 原味",
