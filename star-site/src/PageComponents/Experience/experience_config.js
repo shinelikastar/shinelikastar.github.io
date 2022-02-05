@@ -62,6 +62,17 @@ export default {
         end: "???",
       },
     },
+    {
+      location: {
+        value: "under Venita Blackburn",
+        ref: "https://tinhouse.com/workshop/winter-workshop/",
+      },
+      role: "Tin House Winter Workshop",
 
+      time_period: {
+        start: "Feb 2022",
+        no_interval: true,
+      },
+    },
   ],
 };

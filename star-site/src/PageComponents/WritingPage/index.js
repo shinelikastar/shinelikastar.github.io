@@ -70,21 +70,34 @@ class WritingPage extends React.Component {
   }
 
   renderAward = (award) => {
-
     if (award) {
-      const {award_result, award_name} = award
-
-      const className = "Writing-line--award"
+			const {
+				award_result, 
+				award_name, 
+				award_link, 
+				selected_by
+			} = award
 
       return (
         <div>
-          <p className={className}>
+          <p className="Writing-line--award">
             <span className="Writing-line--award-icon" 
             role="img"
             aria-label="medallion">
              🏅  
             </span>
-            {award_result} for {award_name}
+						{award_result} for {
+							award_link ? 
+								<Link
+									link={award_link}
+									value={award_name} /> 
+								:
+								award_name
+						}
+						{
+							selected_by && 
+								`, selected by ${selected_by}`
+						}
           </p>
         </div>
       )
@@ -115,14 +128,14 @@ class WritingPage extends React.Component {
   );
   };
 
-  renderStoryList = (story_list, isFlash) => {
+  renderSection = (story_list, isFlash) => {
     const subHeader = "column Writing-sub-header";
     const storyCol = "column Writing-story-col";
 
     return story_list.map((elem, index) => {
-      var firstRow = (<div className={subHeader}></div>);
+      var headerRow = (<div className={subHeader}></div>);
       if (index === 0) {
-        firstRow = (
+        headerRow = (
             <div className={subHeader}>
               {isFlash ? "Flash fiction" : "Short stories"}
             </div>
@@ -131,7 +144,7 @@ class WritingPage extends React.Component {
 
       return (
           <div className="row">
-            {firstRow}
+            {headerRow}
             <div className={storyCol}>
               {this.renderLine(elem, index)}
             </div>
@@ -149,8 +162,8 @@ class WritingPage extends React.Component {
       <section className="Writing-page-container">
         <Header text="publications" />
         <div className="Writing-archive">
-          {this.renderStoryList(short_stories, false)}
-          {this.renderStoryList(flash, true)}
+          {this.renderSection(short_stories, false)}
+          {this.renderSection(flash, true)}
         </div>
       </section>
     );

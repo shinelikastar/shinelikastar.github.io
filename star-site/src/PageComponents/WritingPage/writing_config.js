@@ -2,6 +2,34 @@ export default [
   {
     "short_stories": [
       {
+        title: "How It Tastes",
+        publish: {
+					published_by: "Black Warrior Review",
+					published_on: "forthcoming",
+        },
+				forthcoming: {
+					forthcoming_link: "https://bwr.ua.edu/",
+        },
+        award: {
+          award_result: "Runner-up",
+					award_name: "2021 Fiction Contest",
+					award_link: "https://bwr.ua.edu/2021-contest-results/",
+					selected_by: "K-Ming Chang"
+				},
+      },
+      {
+        title: "Kun",
+        publish: {
+          published_by: "Porter House Review",
+        },
+        link: "https://porterhousereview.org/articles/kun/",
+        award: {
+          award_result: "Finalist",
+					award_name: "Editor's Prize",
+					selected_by: "Yiyun Li",
+        }
+      },
+      {
         title: "Secret Skin",
         publish: {
           published_by: "Waxwing",
@@ -27,31 +55,34 @@ export default [
         },
         link: "https://chestnutreview.com/color-study/",
       },
-      {
-        title: "Kun",
-        publish: {
-          published_by: "Porter House Review",
-        },
-        link: "https://porterhousereview.org/articles/kun/",
-        award: {
-          award_result: "Finalist",
-          award_name: "Editor's Prize, judged by Yiyun Li"
-        }
-      },
     ],
   },
   
   {
     "flash": [
       {
+        title: "Original Taste / 原味",
+        publish: {
+          published_by: "Passages North",
+          published_on: "forthcoming spring 2022",
+        },
+        forthcoming: {
+          forthcoming_link: "https://www.passagesnorth.com/",
+        },
+      },
+      {
         title: "Origin Story",
         publish: {
-          published_by: "Salt Hill Journal",
+					published_by: "Salt Hill Journal",
+					published_on: "forthcoming fall 2022",
         },
-        link: "https://salthilljournal.net/arthur-flowers-ff-prize-2021-winners",
+				forthcoming: {
+					forthcoming_link: "https://salthilljournal.net/",
+        },
         award: {
           award_result: "Runner-up",
-          award_name: "Arthur Flowers Flash Fiction Contest"
+					award_name: "Arthur Flowers Flash Fiction Contest",
+					award_link: "https://salthilljournal.net/arthur-flowers-ff-prize-2021-winners",
         }
       },
       {
@@ -62,7 +93,8 @@ export default [
         link: "https://www.tinymolecules.com/issues/nine#star-su",
         award: {
           award_result: "Longlist",
-          award_name: "The Master's Review Flash Fiction Contest, judged by Stuart Dybek"
+					award_name: "The Master's Review Flash Fiction Contest",
+					selected_by: "Stuart Dybek",
         }
       },
       {
@@ -105,6 +137,10 @@ export default [
         },
         interview: {
           interview_link: "http://www.smokelong.com/smoke-mirrors-with-star-su/",
+        },
+        award: {
+          award_result: "Nominated",
+          award_name: "Best Small Fictions 2022"
         },
         link: "http://www.smokelong.com/bone-ache/",
       },
@@ -154,8 +190,9 @@ export default [
         },
         link: "https://citronreview.com/2021/03/21/freezing-point/",
         award: {
-          award_result: "Nominated",
-          award_name: "Best Microfiction 2022"
+          award_result: "Selected",
+					award_name: "Best Microfiction 2022",
+					award_link: "http://www.bestmicrofiction.com/"
         },
       },
       {
@@ -173,16 +210,6 @@ export default [
           award_name: "Best Small Fictions 2022"
         },
       },
-      {
-        title: "Original Taste / 原味",
-        publish: {
-          published_by: "Passages North",
-          published_on: "forthcoming",
-        },
-        forthcoming: {
-          forthcoming_link: "https://www.passagesnorth.com/",
-        },
-      },
     ]
-  }
+  },
 ];

@@ -34,7 +34,7 @@ class Experience extends React.Component {
     const {
       location: { value, ref },
       role,
-      time_period: { start, end },
+      time_period: { start, end, no_interval },
     } = place;
 
     return (
@@ -58,7 +58,7 @@ class Experience extends React.Component {
         </div>
 
         <p className="Place-time">
-          {start} {end ? `- ${end}` : "- present"}
+          {start} {no_interval ? undefined :  end ? `- ${end}` : "- present"}
         </p>
         <br></br>
       </div>
@@ -130,7 +130,7 @@ class Experience extends React.Component {
   render() {
     return (
       <section className="Experience-section">
-        <Header text="some places i've worked  🐣" />
+        <Header text="some places i've existed  🐣" />
         <div className="Tab-container" data-aos="fade-up" data-aos-delay="200">
           {this.renderTabs()}
           {this.renderContent()}
