@@ -175,6 +175,10 @@ export default [
           published_by: "Lost Balloon",
         },
         link: "https://lost-balloon.com/2021/05/12/fairest-star-su/",
+        award: {
+          award_result: "Nominated",
+          award_name: "Best Small Fictions 2022"
+        },
       },
       {
         title: "Calculus of Devotion",
