@@ -53,7 +53,7 @@ export default {
         value: "Tin House Winter Workshop 2022",
         ref: "https://tinhouse.com/workshop/",
       },
-      role: "Flash reader",
+      role: "Workshop participant",
 
       time_period: {
         start: "Feb 2021",
