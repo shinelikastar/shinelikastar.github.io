@@ -27,10 +27,9 @@
 }
 
 .About-dropdown {
-  display: block;
   z-index: 2;
-  width: 18rem;
-  margin-left: 100px;
+  width: 22rem;
+  text-align: justify;
 }
 
 .About-content {
