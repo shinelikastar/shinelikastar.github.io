@@ -70,15 +70,12 @@ class WritingPage extends React.Component {
   }
 
   renderAward = (award) => {
-
     if (award) {
       const {award_result, award_name} = award
 
-      const className = "Writing-line--award"
-
       return (
         <div>
-          <p className={className}>
+          <p className="Writing-line--award">
             <span className="Writing-line--award-icon" 
             role="img"
             aria-label="medallion">

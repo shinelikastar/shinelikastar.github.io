@@ -4,9 +4,20 @@ export default [
       {
         title: "心太软 [heart, too tender]",
         publish: {
-          published_by: "Joyland",
+          published_by: "Joyland Magazine",
         },
         link: "https://joylandmagazine.com/fiction/%e5%bf%83%e5%a4%aa%e8%bd%af-heart-too-tender/",
+      },
+      {
+        title: "How It Tastes",
+        publish: {
+          published_by: "Black Warrior Review",
+        },
+        link: "https://bwr.ua.edu/48-2-feature-how-it-tastes-by-fiction-contest-runner-up-star-su/",
+        award: {
+          award_result: "First runner-up",
+          award_name: "2021 BWR Fiction Contest, judged by K-Ming Chang",
+        },
       },
       {
         title: "Kun",
@@ -16,7 +27,7 @@ export default [
         link: "https://porterhousereview.org/articles/kun/",
         award: {
           award_result: "Finalist",
-          award_name: "Editor's Prize, judged by Yiyun Li"
+          award_name: "2021 Editor's Prize, judged by Yiyun Li"
         },
         award_2: {
           award_result: "Nominated",

@@ -50,6 +50,17 @@ export default {
     },
     {
       location: {
+        value: "Tin House Winter Workshop 2022",
+        ref: "https://tinhouse.com/workshop/",
+      },
+      role: "Flash reader",
+
+      time_period: {
+        start: "Feb 2021",
+      },
+    },
+    {
+      location: {
         value: "SmokeLong Quarterly",
         ref: "http://www.smokelong.com",
       },
