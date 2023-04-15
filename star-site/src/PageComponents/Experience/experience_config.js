@@ -16,10 +16,10 @@ export default {
         value: "Split Lip Magazine",
         ref: "https://splitlipthemag.com/",
       },
-      role: "Flash reader",
+      role: "Assistant flash fiction editor",
 
       time_period: {
-        start: "Feb 2021",
+        start: "Mar 2023",
       },
     },
   ],
@@ -34,6 +34,18 @@ export default {
       time_period: {
         start: "Sep 2017",
         end: "May 2021",
+      },
+    },
+    {
+      location: {
+        value: "Split Lip Magazine",
+        ref: "https://splitlipthemag.com/",
+      },
+      role: "Flash reader",
+
+      time_period: {
+        start: "Feb 2021",
+        end: "Mar 2023",
       },
     },
     {

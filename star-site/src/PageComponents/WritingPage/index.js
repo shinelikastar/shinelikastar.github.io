@@ -147,7 +147,7 @@ class WritingPage extends React.Component {
 
     return (
       <section className="Writing-page-container">
-        <Header text="publications" />
+        <Header text="select publications" />
         <div className="Writing-archive">
           {this.renderStoryList(short_stories, false)}
           {this.renderStoryList(flash, true)}

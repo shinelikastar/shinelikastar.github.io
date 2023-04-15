@@ -2,19 +2,33 @@ export default [
   {
     "short_stories": [
       {
+        title: "心太软 [heart, too tender]",
+        publish: {
+          published_by: "Joyland",
+        },
+        link: "https://joylandmagazine.com/fiction/%e5%bf%83%e5%a4%aa%e8%bd%af-heart-too-tender/",
+      },
+      {
+        title: "Kun",
+        publish: {
+          published_by: "Porter House Review",
+        },
+        link: "https://porterhousereview.org/articles/kun/",
+        award: {
+          award_result: "Finalist",
+          award_name: "Editor's Prize, judged by Yiyun Li"
+        },
+        award_2: {
+          award_result: "Nominated",
+          award_name: "Best of the Net 2022"
+        }
+      },
+      {
         title: "Secret Skin",
         publish: {
           published_by: "Waxwing",
         },
         link: "http://waxwingmag.org/items/issue23/42_Su-Secret-Skin.php",
-      },
-      {
-        title: "Properties of Light",
-        publish: {
-          published_by: "Baltimore Review",
-        },
-        link:
-          "https://baltimorereview.org/index.php/winter_2021/contributor/star-su",
       },
       {
         title: "Color Study",
@@ -28,15 +42,12 @@ export default [
         link: "https://chestnutreview.com/color-study/",
       },
       {
-        title: "Kun",
+        title: "Properties of Light",
         publish: {
-          published_by: "Porter House Review",
+          published_by: "Baltimore Review",
         },
-        link: "https://porterhousereview.org/articles/kun/",
-        award: {
-          award_result: "Finalist",
-          award_name: "Editor's Prize, judged by Yiyun Li"
-        }
+        link:
+          "https://baltimorereview.org/index.php/winter_2021/contributor/star-su",
       },
     ],
   },
@@ -52,6 +63,10 @@ export default [
         award: {
           award_result: "Runner-up",
           award_name: "Arthur Flowers Flash Fiction Contest"
+        },
+        award_2: {
+          award_result: "Nominated",
+          award_name: "Best Small Fictions 2022"
         }
       },
       {
@@ -104,9 +119,13 @@ export default [
           published_by: "SmokeLong Quarterly",
         },
         interview: {
-          interview_link: "http://www.smokelong.com/smoke-mirrors-with-star-su/",
+          interview_link: "https://www.smokelong.com/interviews/smoke-and-mirrors-with-star-su/",
         },
-        link: "http://www.smokelong.com/bone-ache/",
+        link: "https://www.smokelong.com/stories/bone-ache-2/",
+        award: {
+          award_result: "Nominated",
+          award_name: "Best Small Fictions 2022"
+        }
       },
       {
         title: "Sweet Teeth",
@@ -134,54 +153,11 @@ export default [
         }
       },
       {
-        title: "Fairest",
-        publish: {
-          published_by: "Lost Balloon",
-        },
-        link: "https://lost-balloon.com/2021/05/12/fairest-star-su/",
-      },
-      {
-        title: "Calculus of Devotion",
-        publish: {
-          published_by: "Fractured Lit",
-        },
-        link: "https://fracturedlit.com/calculus-of-devotion/",
-      },
-      {
-        title: "Freezing Point",
-        publish: {
-          published_by: "Citron Review",
-        },
-        link: "https://citronreview.com/2021/03/21/freezing-point/",
-        award: {
-          award_result: "Nominated",
-          award_name: "Best Microfiction 2022"
-        },
-      },
-      {
-        title: "Butterflies and Moths",
-        publish: {
-          published_by: "Star 82 Review",
-        },
-        link: "http://www.star82review.com/9.1/su-butterflies.html",
-        award: {
-          award_result: "Nominated",
-          award_name: "Best Microfiction 2022"
-        },
-        award_2: {
-          award_result: "Nominated",
-          award_name: "Best Small Fictions 2022"
-        },
-      },
-      {
         title: "Original Taste / 原味",
         publish: {
           published_by: "Passages North",
-          published_on: "forthcoming",
         },
-        forthcoming: {
-          forthcoming_link: "https://www.passagesnorth.com/",
-        },
+        link: "https://www.passagesnorth.com/issue-43",
       },
     ]
   }

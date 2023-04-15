@@ -3,7 +3,6 @@ import React from "react";
 import Header from "../../shared-components/Header";
 import Dropdown from "../../shared-components/Dropdown";
 import Link from "../../shared-components/Link";
-import dishes from './cooking_config'
 import girl from "../../assets/dozing.png";
 import "./About.css";
 
@@ -21,10 +20,6 @@ const content = (
 );
 
 class About extends React.Component {
-  static defaultProps = {
-    dishConfig: dishes,
-  }
-
   renderGirlDozing() {
     return (
       <div
@@ -37,46 +32,29 @@ class About extends React.Component {
     );
   }
 
-  popDish() {
-    const {dishConfig} = this.props;
-    const {dishes} = dishConfig[0];
-
-    //TODO: update later to be random from stack
-    const topDish = dishes[0];
-    const {name, link} = topDish;
-
-    return (
-      <Link
-        link={link.href}
-        value={name}
-        className="Link-highlight"
-      />
-    )
-  }
-
   renderAbout() {
     return (
       <div className="About-content">
-        <p className="About-text">
-          Hi! I'm a writer and engineer currently living in Brooklyn, NY. 
-          <br></br>
-          <br></br>I love cooking elaborate dishes (most recently: {this.popDish()}), going 
-          to museums, making tea and forgetting to drink it, and{" "}
-          <Link
-            link="https://www.goodreads.com/user/show/51203370-star-su"
-            value="reading"
-            className="Link-highlight"
-          />{" "}
-          everything I come across.<br></br>
-          <br></br>
-          Thanks for stopping by! Find me on Twitter 
-          <Link 
-            link="https://twitter.com/stars_su"
-            value="(@stars_su)"
-            className="Link-highlight"
-          />
-          .
-        </p>
+      <p className="About-text">
+        Star Su is a writer and engineer. She grew up in Michigan and now lives in
+        New York.
+        <br/>
+        <br/>
+        Her fiction has appeared in Black Warrior Review, The Offing, Porter House
+        Review, Waxwing, and elsewhere. Their short stories have been chosen by
+        Yiyun Li as a finalist in Porter House Review’s 2021 Editor Prize and
+        K-Ming Chang as first runner-up in Black Warrior Review’s 2021 fiction
+        contest. Their work has been anthologized in Best Microfiction 2022 and
+        nominated for the Pushcart, Best Small Fictions, and Best Microfiction.
+        They are an assistant flash fiction editor for Split Lip Magazine.
+        <br/>
+        <br/>
+        She is currently working on a short story collection.
+        <br/>
+        <br/>
+        She is always on the hunt for eclectic animated films. You can contact
+        them at star dot c dot su at gmail.
+      </p>
       </div>
     );
   }
